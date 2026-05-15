@@ -2,891 +2,1056 @@
   "fecha_generacion": "2026-05-15",
   "fin_de_semana": "16-17 de mayo de 2026",
   "nota_importante": "Los horarios están convertidos a CLT (Zona Horaria de Chile)",
-  "nota_horarios": "CLT en mayo 2026: España/Italia/Alemania -6h, Brasil -2h, Inglaterra -5h, NBA ET≈CLT",
-  "ligas": {
-    "laliga_ea_sports": {
-      "nombre": "LaLiga EA Sports (España)",
-      "status": "PARTIDOS ENCONTRADOS",
-      "competicion": "Primera División",
-      "jornada": "Jornada 37 (penúltima jornada)",
-      "fecha": "domingo 17 de mayo de 2026",
-      "formato": "Horario unificado - todos los partidos simultáneos",
-      "partidos": [
-        {
-          "numero": 1,
-          "local": "Athletic Club",
-          "visitante": "RC Celta de Vigo",
-          "hora_españa": "19:00",
-          "hora_chile_clt": "13:00",
-          "estadio": "San Mamés",
-          "prediccion": {
-            "pos_local": 9, "pts_local": 44,
-            "pos_visitante": 6, "pts_visitante": 50,
-            "prob_local": 38, "prob_empate": 26, "prob_visitante": 36,
-            "favorito": "visitante",
-            "goles_esperados": "2-3", "tarjetas_esperadas": "3-4", "corners_esperados": "8-10",
-            "cuotas_betsson": { "local": 2.50, "empate": 3.60, "visitante": 2.40 }
-          }
+  "nota_horarios": "CLT mayo 2026: España/Italia/Alemania -6h, Brasil -2h, Inglaterra -5h, NBA ET≈CLT",
+  "deportes": {
+    "futbol": {
+      "nombre": "Fútbol",
+      "icono": "⚽",
+      "ligas": {
+        "chile": {
+          "nombre": "Chile Primera División",
+          "status": "PARTIDOS ENCONTRADOS",
+          "competicion": "Primera División de Chile",
+          "jornada": "Fecha 15",
+          "fecha": "16-17 de mayo de 2026",
+          "partidos": [
+            {
+              "numero": 1,
+              "local": "O'Higgins",
+              "visitante": "U. de Concepción",
+              "hora_chile_clt": "17:30",
+              "fecha_partido": "sábado 16 de mayo",
+              "estadio": "Estadio Codelco El Teniente",
+              "prediccion": {
+                "pos_local": 5, "pts_local": 17,
+                "pos_visitante": 12, "pts_visitante": 9,
+                "prob_local": 55, "prob_empate": 28, "prob_visitante": 17,
+                "favorito": "local",
+                "goles_esperados": "2-3", "tarjetas_esperadas": "3-4", "corners_esperados": "8-10",
+                "cuotas_betsson": { "local": 1.70, "empate": 3.50, "visitante": 5.00 }
+              }
+            },
+            {
+              "numero": 2,
+              "local": "Deportes Limache",
+              "visitante": "U. Católica",
+              "hora_chile_clt": "20:00",
+              "fecha_partido": "sábado 16 de mayo",
+              "estadio": "Municipal Lucio Fariña",
+              "prediccion": {
+                "pos_local": 14, "pts_local": 7,
+                "pos_visitante": 3, "pts_visitante": 20,
+                "prob_local": 18, "prob_empate": 25, "prob_visitante": 57,
+                "favorito": "visitante",
+                "goles_esperados": "1-3", "tarjetas_esperadas": "3-5", "corners_esperados": "7-10",
+                "cuotas_betsson": { "local": 5.00, "empate": 3.80, "visitante": 1.65 }
+              }
+            },
+            {
+              "numero": 3,
+              "local": "Huachipato",
+              "visitante": "Unión La Calera",
+              "hora_chile_clt": "12:30",
+              "fecha_partido": "domingo 17 de mayo",
+              "estadio": "Estadio Huachipato",
+              "prediccion": {
+                "pos_local": 8, "pts_local": 13,
+                "pos_visitante": 10, "pts_visitante": 11,
+                "prob_local": 42, "prob_empate": 30, "prob_visitante": 28,
+                "favorito": "local",
+                "goles_esperados": "1-2", "tarjetas_esperadas": "3-4", "corners_esperados": "7-9",
+                "cuotas_betsson": { "local": 2.15, "empate": 3.40, "visitante": 3.60 }
+              }
+            },
+            {
+              "numero": 4,
+              "local": "Cobresal",
+              "visitante": "U. de Chile",
+              "hora_chile_clt": "15:00",
+              "fecha_partido": "domingo 17 de mayo",
+              "estadio": "El Cobre, El Salvador (2500m altitud)",
+              "nota": "Partido en altura — El Salvador, Atacama (~2500m). Ajuste de cuotas por factor altitud.",
+              "prediccion": {
+                "pos_local": 7, "pts_local": 15,
+                "pos_visitante": 2, "pts_visitante": 23,
+                "prob_local": 40, "prob_empate": 27, "prob_visitante": 33,
+                "favorito": "local",
+                "goles_esperados": "1-2", "tarjetas_esperadas": "3-5", "corners_esperados": "6-9",
+                "cuotas_betsson": { "local": 2.30, "empate": 3.40, "visitante": 2.90 }
+              }
+            },
+            {
+              "numero": 5,
+              "local": "Colo-Colo",
+              "visitante": "Ñublense",
+              "hora_chile_clt": "17:30",
+              "fecha_partido": "domingo 17 de mayo",
+              "estadio": "Estadio Monumental",
+              "prediccion": {
+                "pos_local": 1, "pts_local": 26,
+                "pos_visitante": 6, "pts_visitante": 16,
+                "prob_local": 62, "prob_empate": 22, "prob_visitante": 16,
+                "favorito": "local",
+                "goles_esperados": "2-3", "tarjetas_esperadas": "2-4", "corners_esperados": "9-12",
+                "cuotas_betsson": { "local": 1.55, "empate": 4.00, "visitante": 5.50 }
+              }
+            },
+            {
+              "numero": 6,
+              "local": "Deportes Concepción",
+              "visitante": "Everton",
+              "hora_chile_clt": "20:00",
+              "fecha_partido": "domingo 17 de mayo",
+              "estadio": "Estadio Ester Roa",
+              "prediccion": {
+                "pos_local": 11, "pts_local": 10,
+                "pos_visitante": 9, "pts_visitante": 12,
+                "prob_local": 35, "prob_empate": 32, "prob_visitante": 33,
+                "favorito": "local",
+                "goles_esperados": "1-2", "tarjetas_esperadas": "3-5", "corners_esperados": "7-9",
+                "cuotas_betsson": { "local": 2.65, "empate": 3.20, "visitante": 2.90 }
+              }
+            }
+          ],
+          "total_partidos": 6
         },
-        {
-          "numero": 2,
-          "local": "Atlético de Madrid",
-          "visitante": "Girona FC",
-          "hora_españa": "19:00",
-          "hora_chile_clt": "13:00",
-          "estadio": "Metropolitano",
-          "prediccion": {
-            "pos_local": 4, "pts_local": 66,
-            "pos_visitante": 13, "pts_visitante": 37,
-            "prob_local": 62, "prob_empate": 22, "prob_visitante": 16,
-            "favorito": "local",
-            "goles_esperados": "2-3", "tarjetas_esperadas": "3-5", "corners_esperados": "9-11",
-            "cuotas_betsson": { "local": 1.55, "empate": 4.00, "visitante": 5.50 }
-          }
+        "laliga_ea_sports": {
+          "nombre": "LaLiga EA Sports (España)",
+          "status": "PARTIDOS ENCONTRADOS",
+          "competicion": "Primera División",
+          "jornada": "Jornada 37 (penúltima jornada)",
+          "fecha": "domingo 17 de mayo de 2026",
+          "formato": "Horario unificado - todos los partidos simultáneos",
+          "partidos": [
+            {
+              "numero": 1,
+              "local": "Athletic Club",
+              "visitante": "RC Celta de Vigo",
+              "hora_españa": "19:00",
+              "hora_chile_clt": "13:00",
+              "estadio": "San Mamés",
+              "prediccion": {
+                "pos_local": 9, "pts_local": 44,
+                "pos_visitante": 6, "pts_visitante": 50,
+                "prob_local": 38, "prob_empate": 26, "prob_visitante": 36,
+                "favorito": "visitante",
+                "goles_esperados": "2-3", "tarjetas_esperadas": "3-4", "corners_esperados": "8-10",
+                "cuotas_betsson": { "local": 2.50, "empate": 3.60, "visitante": 2.40 }
+              }
+            },
+            {
+              "numero": 2,
+              "local": "Atlético de Madrid",
+              "visitante": "Girona FC",
+              "hora_españa": "19:00",
+              "hora_chile_clt": "13:00",
+              "estadio": "Metropolitano",
+              "prediccion": {
+                "pos_local": 4, "pts_local": 66,
+                "pos_visitante": 13, "pts_visitante": 37,
+                "prob_local": 62, "prob_empate": 22, "prob_visitante": 16,
+                "favorito": "local",
+                "goles_esperados": "2-3", "tarjetas_esperadas": "3-5", "corners_esperados": "9-11",
+                "cuotas_betsson": { "local": 1.55, "empate": 4.00, "visitante": 5.50 }
+              }
+            },
+            {
+              "numero": 3,
+              "local": "Elche CF",
+              "visitante": "Getafe CF",
+              "hora_españa": "19:00",
+              "hora_chile_clt": "13:00",
+              "estadio": "Manuel Martínez Valero",
+              "prediccion": {
+                "pos_local": 18, "pts_local": 32,
+                "pos_visitante": 7, "pts_visitante": 48,
+                "prob_local": 26, "prob_empate": 30, "prob_visitante": 44,
+                "favorito": "visitante",
+                "goles_esperados": "1-3", "tarjetas_esperadas": "4-6", "corners_esperados": "8-11",
+                "cuotas_betsson": { "local": 3.40, "empate": 3.50, "visitante": 1.85 }
+              }
+            },
+            {
+              "numero": 4,
+              "local": "Levante UD",
+              "visitante": "RCD Mallorca",
+              "hora_españa": "19:00",
+              "hora_chile_clt": "13:00",
+              "estadio": "Estadio Ciudad de Valencia",
+              "prediccion": {
+                "pos_local": 19, "pts_local": 30,
+                "pos_visitante": 11, "pts_visitante": 40,
+                "prob_local": 27, "prob_empate": 28, "prob_visitante": 45,
+                "favorito": "visitante",
+                "goles_esperados": "2-3", "tarjetas_esperadas": "3-5", "corners_esperados": "8-10",
+                "cuotas_betsson": { "local": 3.30, "empate": 3.60, "visitante": 1.85 }
+              }
+            },
+            {
+              "numero": 5,
+              "local": "Rayo Vallecano",
+              "visitante": "Villarreal CF",
+              "hora_españa": "19:00",
+              "hora_chile_clt": "13:00",
+              "estadio": "Estadio de Vallecas",
+              "prediccion": {
+                "pos_local": 10, "pts_local": 43,
+                "pos_visitante": 3, "pts_visitante": 69,
+                "prob_local": 25, "prob_empate": 25, "prob_visitante": 50,
+                "favorito": "visitante",
+                "goles_esperados": "2-3", "tarjetas_esperadas": "3-4", "corners_esperados": "9-11",
+                "cuotas_betsson": { "local": 3.60, "empate": 4.00, "visitante": 1.75 }
+              }
+            },
+            {
+              "numero": 6,
+              "local": "Real Sociedad",
+              "visitante": "Valencia CF",
+              "hora_españa": "19:00",
+              "hora_chile_clt": "13:00",
+              "estadio": "Anoeta",
+              "prediccion": {
+                "pos_local": 8, "pts_local": 45,
+                "pos_visitante": 14, "pts_visitante": 36,
+                "prob_local": 50, "prob_empate": 28, "prob_visitante": 22,
+                "favorito": "local",
+                "goles_esperados": "2-3", "tarjetas_esperadas": "3-4", "corners_esperados": "9-11",
+                "cuotas_betsson": { "local": 1.85, "empate": 3.50, "visitante": 3.80 }
+              }
+            },
+            {
+              "numero": 7,
+              "local": "Real Oviedo",
+              "visitante": "Deportivo Alavés",
+              "hora_españa": "19:00",
+              "hora_chile_clt": "13:00",
+              "estadio": "Carlos Tartiere",
+              "prediccion": {
+                "pos_local": 20, "pts_local": 29,
+                "pos_visitante": 17, "pts_visitante": 33,
+                "prob_local": 35, "prob_empate": 32, "prob_visitante": 33,
+                "favorito": "local",
+                "goles_esperados": "1-2", "tarjetas_esperadas": "4-6", "corners_esperados": "7-9",
+                "cuotas_betsson": { "local": 2.50, "empate": 3.20, "visitante": 3.30 }
+              }
+            },
+            {
+              "numero": 8,
+              "local": "CA Osasuna",
+              "visitante": "RCD Espanyol",
+              "hora_españa": "19:00",
+              "hora_chile_clt": "13:00",
+              "estadio": "Estadio El Sadar",
+              "prediccion": {
+                "pos_local": 15, "pts_local": 35,
+                "pos_visitante": 16, "pts_visitante": 34,
+                "prob_local": 40, "prob_empate": 30, "prob_visitante": 30,
+                "favorito": "local",
+                "goles_esperados": "1-3", "tarjetas_esperadas": "3-5", "corners_esperados": "8-10",
+                "cuotas_betsson": { "local": 2.35, "empate": 3.30, "visitante": 3.30 }
+              }
+            },
+            {
+              "numero": 9,
+              "local": "Sevilla FC",
+              "visitante": "Real Madrid CF",
+              "hora_españa": "19:00",
+              "hora_chile_clt": "13:00",
+              "estadio": "Ramón Sánchez Pizjuán",
+              "prediccion": {
+                "pos_local": 12, "pts_local": 38,
+                "pos_visitante": 2, "pts_visitante": 80,
+                "prob_local": 18, "prob_empate": 22, "prob_visitante": 60,
+                "favorito": "visitante",
+                "goles_esperados": "2-4", "tarjetas_esperadas": "3-5", "corners_esperados": "8-12",
+                "cuotas_betsson": { "local": 5.00, "empate": 4.00, "visitante": 1.45 }
+              }
+            },
+            {
+              "numero": 10,
+              "local": "FC Barcelona",
+              "visitante": "Real Betis",
+              "hora_españa": "21:15",
+              "hora_chile_clt": "15:15",
+              "estadio": "Camp Nou",
+              "prediccion": {
+                "pos_local": 1, "pts_local": 91,
+                "pos_visitante": 5, "pts_visitante": 57,
+                "prob_local": 65, "prob_empate": 20, "prob_visitante": 15,
+                "favorito": "local",
+                "goles_esperados": "2-4", "tarjetas_esperadas": "2-4", "corners_esperados": "9-13",
+                "cuotas_betsson": { "local": 1.40, "empate": 4.80, "visitante": 6.50 }
+              }
+            }
+          ],
+          "total_partidos": 10
         },
-        {
-          "numero": 3,
-          "local": "Elche CF",
-          "visitante": "Getafe CF",
-          "hora_españa": "19:00",
-          "hora_chile_clt": "13:00",
-          "estadio": "Manuel Martínez Valero",
-          "prediccion": {
-            "pos_local": 18, "pts_local": 32,
-            "pos_visitante": 7, "pts_visitante": 48,
-            "prob_local": 26, "prob_empate": 30, "prob_visitante": 44,
-            "favorito": "visitante",
-            "goles_esperados": "1-3", "tarjetas_esperadas": "4-6", "corners_esperados": "8-11",
-            "cuotas_betsson": { "local": 3.40, "empate": 3.50, "visitante": 1.85 }
-          }
+        "bundesliga": {
+          "nombre": "Bundesliga (Alemania)",
+          "status": "PARTIDOS ENCONTRADOS",
+          "competicion": "Primera División Alemana",
+          "jornada": "Jornada 34 (última jornada - fin de temporada)",
+          "fecha": "sábado 16 de mayo de 2026",
+          "formato": "Horario unificado - todos los partidos simultáneos a las 15:30 (Alemania)",
+          "nota": "Jornada histórica: los tres últimos equipos entran con los mismos puntos (26). Descenso definido hoy.",
+          "partidos": [
+            {
+              "numero": 1,
+              "local": "Bayern München",
+              "visitante": "1. FC Köln",
+              "hora_alemania": "15:30",
+              "hora_chile_clt": "09:30",
+              "estadio": "Allianz Arena",
+              "prediccion": {
+                "pos_local": 1, "pts_local": 86,
+                "pos_visitante": 14, "pts_visitante": 32,
+                "prob_local": 82, "prob_empate": 11, "prob_visitante": 7,
+                "favorito": "local",
+                "goles_esperados": "3-5", "tarjetas_esperadas": "2-4", "corners_esperados": "10-14",
+                "cuotas_betsson": { "local": 1.15, "empate": 8.00, "visitante": 14.00 }
+              }
+            },
+            {
+              "numero": 2,
+              "local": "Bayer 04 Leverkusen",
+              "visitante": "Hamburger SV",
+              "hora_alemania": "15:30",
+              "hora_chile_clt": "09:30",
+              "estadio": "BayArena",
+              "prediccion": {
+                "pos_local": 6, "pts_local": 58,
+                "pos_visitante": 11, "pts_visitante": 37,
+                "prob_local": 60, "prob_empate": 22, "prob_visitante": 18,
+                "favorito": "local",
+                "goles_esperados": "2-3", "tarjetas_esperadas": "2-4", "corners_esperados": "9-12",
+                "cuotas_betsson": { "local": 1.55, "empate": 4.20, "visitante": 5.00 }
+              }
+            },
+            {
+              "numero": 3,
+              "local": "Eintracht Frankfurt",
+              "visitante": "VfB Stuttgart",
+              "hora_alemania": "15:30",
+              "hora_chile_clt": "09:30",
+              "estadio": "Deutsche Bank Park",
+              "prediccion": {
+                "pos_local": 8, "pts_local": 43,
+                "pos_visitante": 4, "pts_visitante": 61,
+                "prob_local": 36, "prob_empate": 28, "prob_visitante": 36,
+                "favorito": "empate",
+                "goles_esperados": "2-4", "tarjetas_esperadas": "2-4", "corners_esperados": "9-12",
+                "cuotas_betsson": { "local": 2.55, "empate": 3.40, "visitante": 2.70 }
+              }
+            },
+            {
+              "numero": 4,
+              "local": "SC Freiburg",
+              "visitante": "RB Leipzig",
+              "hora_alemania": "15:30",
+              "hora_chile_clt": "09:30",
+              "estadio": "Europa-Park Stadion",
+              "prediccion": {
+                "pos_local": 7, "pts_local": 44,
+                "pos_visitante": 3, "pts_visitante": 65,
+                "prob_local": 27, "prob_empate": 27, "prob_visitante": 46,
+                "favorito": "visitante",
+                "goles_esperados": "2-4", "tarjetas_esperadas": "2-4", "corners_esperados": "9-12",
+                "cuotas_betsson": { "local": 3.30, "empate": 3.50, "visitante": 1.90 }
+              }
+            },
+            {
+              "numero": 5,
+              "local": "Werder Bremen",
+              "visitante": "Borussia Dortmund",
+              "hora_alemania": "15:30",
+              "hora_chile_clt": "09:30",
+              "estadio": "Weserstadion",
+              "prediccion": {
+                "pos_local": 15, "pts_local": 32,
+                "pos_visitante": 2, "pts_visitante": 70,
+                "prob_local": 20, "prob_empate": 24, "prob_visitante": 56,
+                "favorito": "visitante",
+                "goles_esperados": "2-4", "tarjetas_esperadas": "2-4", "corners_esperados": "9-12",
+                "cuotas_betsson": { "local": 4.50, "empate": 4.00, "visitante": 1.60 }
+              }
+            },
+            {
+              "numero": 6,
+              "local": "Borussia Mönchengladbach",
+              "visitante": "TSG Hoffenheim",
+              "hora_alemania": "15:30",
+              "hora_chile_clt": "09:30",
+              "estadio": "Borussia-Park",
+              "prediccion": {
+                "pos_local": 13, "pts_local": 35,
+                "pos_visitante": 5, "pts_visitante": 61,
+                "prob_local": 27, "prob_empate": 27, "prob_visitante": 46,
+                "favorito": "visitante",
+                "goles_esperados": "2-4", "tarjetas_esperadas": "2-4", "corners_esperados": "8-11",
+                "cuotas_betsson": { "local": 3.30, "empate": 3.50, "visitante": 1.90 }
+              }
+            },
+            {
+              "numero": 7,
+              "local": "1. FC Union Berlin",
+              "visitante": "FC Augsburg",
+              "hora_alemania": "15:30",
+              "hora_chile_clt": "09:30",
+              "estadio": "An der Alten Försterei",
+              "prediccion": {
+                "pos_local": 12, "pts_local": 36,
+                "pos_visitante": 9, "pts_visitante": 43,
+                "prob_local": 40, "prob_empate": 30, "prob_visitante": 30,
+                "favorito": "local",
+                "goles_esperados": "1-3", "tarjetas_esperadas": "2-4", "corners_esperados": "8-10",
+                "cuotas_betsson": { "local": 2.35, "empate": 3.30, "visitante": 3.30 }
+              }
+            },
+            {
+              "numero": 8,
+              "local": "FC St. Pauli",
+              "visitante": "VfL Wolfsburg",
+              "hora_alemania": "15:30",
+              "hora_chile_clt": "09:30",
+              "estadio": "Millerntor-Stadion",
+              "prediccion": {
+                "pos_local": 18, "pts_local": 26,
+                "pos_visitante": 16, "pts_visitante": 26,
+                "prob_local": 38, "prob_empate": 28, "prob_visitante": 34,
+                "favorito": "local",
+                "goles_esperados": "1-3", "tarjetas_esperadas": "3-5", "corners_esperados": "8-11",
+                "cuotas_betsson": { "local": 2.40, "empate": 3.30, "visitante": 2.90 }
+              }
+            },
+            {
+              "numero": 9,
+              "local": "1. FC Heidenheim",
+              "visitante": "1. FSV Mainz 05",
+              "hora_alemania": "15:30",
+              "hora_chile_clt": "09:30",
+              "estadio": "Voith-Arena",
+              "prediccion": {
+                "pos_local": 17, "pts_local": 26,
+                "pos_visitante": 10, "pts_visitante": 37,
+                "prob_local": 33, "prob_empate": 28, "prob_visitante": 39,
+                "favorito": "visitante",
+                "goles_esperados": "1-3", "tarjetas_esperadas": "3-5", "corners_esperados": "8-11",
+                "cuotas_betsson": { "local": 2.70, "empate": 3.40, "visitante": 2.50 }
+              }
+            }
+          ],
+          "total_partidos": 9
         },
-        {
-          "numero": 4,
-          "local": "Levante UD",
-          "visitante": "RCD Mallorca",
-          "hora_españa": "19:00",
-          "hora_chile_clt": "13:00",
-          "estadio": "Estadio Ciudad de Valencia",
-          "prediccion": {
-            "pos_local": 19, "pts_local": 30,
-            "pos_visitante": 11, "pts_visitante": 40,
-            "prob_local": 27, "prob_empate": 28, "prob_visitante": 45,
-            "favorito": "visitante",
-            "goles_esperados": "2-3", "tarjetas_esperadas": "3-5", "corners_esperados": "8-10",
-            "cuotas_betsson": { "local": 3.30, "empate": 3.60, "visitante": 1.85 }
-          }
+        "premier_league": {
+          "nombre": "Premier League (Inglaterra)",
+          "status": "PARTIDOS ENCONTRADOS",
+          "competicion": "Primera División Inglesa",
+          "jornada": "Jornada 38 (última jornada)",
+          "fecha": "16-17 de mayo de 2026",
+          "partidos": [
+            {
+              "numero": 1,
+              "local": "Aston Villa",
+              "visitante": "Liverpool FC",
+              "hora_inglaterra": "15:00",
+              "hora_chile_clt": "10:00",
+              "fecha_partido": "sábado 16 de mayo",
+              "estadio": "Villa Park",
+              "prediccion": {
+                "pos_local": 5, "pts_local": 63,
+                "pos_visitante": 4, "pts_visitante": 68,
+                "prob_local": 36, "prob_empate": 28, "prob_visitante": 36,
+                "favorito": "empate",
+                "goles_esperados": "2-3", "tarjetas_esperadas": "2-4", "corners_esperados": "9-12",
+                "cuotas_betsson": { "local": 2.55, "empate": 3.50, "visitante": 2.65 }
+              }
+            },
+            {
+              "numero": 2,
+              "local": "Manchester United",
+              "visitante": "Nottingham Forest",
+              "hora_inglaterra": "13:30",
+              "hora_chile_clt": "08:30",
+              "fecha_partido": "domingo 17 de mayo",
+              "estadio": "Old Trafford",
+              "prediccion": {
+                "pos_local": 3, "pts_local": 69,
+                "pos_visitante": 13, "pts_visitante": 40,
+                "prob_local": 62, "prob_empate": 22, "prob_visitante": 16,
+                "favorito": "local",
+                "goles_esperados": "2-3", "tarjetas_esperadas": "2-4", "corners_esperados": "9-12",
+                "cuotas_betsson": { "local": 1.55, "empate": 4.20, "visitante": 5.50 }
+              }
+            },
+            {
+              "numero": 3,
+              "local": "Wolverhampton",
+              "visitante": "Fulham FC",
+              "hora_inglaterra": "16:00",
+              "hora_chile_clt": "11:00",
+              "fecha_partido": "domingo 17 de mayo",
+              "estadio": "Molineux Stadium",
+              "prediccion": {
+                "pos_local": 15, "pts_local": 35,
+                "pos_visitante": 10, "pts_visitante": 46,
+                "prob_local": 30, "prob_empate": 30, "prob_visitante": 40,
+                "favorito": "visitante",
+                "goles_esperados": "1-3", "tarjetas_esperadas": "3-4", "corners_esperados": "9-11",
+                "cuotas_betsson": { "local": 3.10, "empate": 3.40, "visitante": 2.20 }
+              }
+            },
+            {
+              "numero": 4,
+              "local": "Leeds United",
+              "visitante": "Brighton & Hove Albion",
+              "hora_inglaterra": "16:00",
+              "hora_chile_clt": "11:00",
+              "fecha_partido": "domingo 17 de mayo",
+              "estadio": "Elland Road",
+              "prediccion": {
+                "pos_local": 12, "pts_local": 42,
+                "pos_visitante": 7, "pts_visitante": 55,
+                "prob_local": 33, "prob_empate": 28, "prob_visitante": 39,
+                "favorito": "visitante",
+                "goles_esperados": "2-3", "tarjetas_esperadas": "2-4", "corners_esperados": "9-12",
+                "cuotas_betsson": { "local": 2.80, "empate": 3.50, "visitante": 2.35 }
+              }
+            },
+            {
+              "numero": 5,
+              "local": "Brentford FC",
+              "visitante": "Crystal Palace",
+              "hora_inglaterra": "16:00",
+              "hora_chile_clt": "11:00",
+              "fecha_partido": "domingo 17 de mayo",
+              "estadio": "Gtech Community Stadium",
+              "prediccion": {
+                "pos_local": 11, "pts_local": 44,
+                "pos_visitante": 9, "pts_visitante": 48,
+                "prob_local": 40, "prob_empate": 30, "prob_visitante": 30,
+                "favorito": "local",
+                "goles_esperados": "2-3", "tarjetas_esperadas": "2-4", "corners_esperados": "9-11",
+                "cuotas_betsson": { "local": 2.35, "empate": 3.40, "visitante": 3.30 }
+              }
+            },
+            {
+              "numero": 6,
+              "local": "Everton FC",
+              "visitante": "Sunderland AFC",
+              "hora_inglaterra": "16:00",
+              "hora_chile_clt": "11:00",
+              "fecha_partido": "domingo 17 de mayo",
+              "estadio": "Goodison Park",
+              "prediccion": {
+                "pos_local": 14, "pts_local": 38,
+                "pos_visitante": 16, "pts_visitante": 33,
+                "prob_local": 43, "prob_empate": 28, "prob_visitante": 29,
+                "favorito": "local",
+                "goles_esperados": "1-3", "tarjetas_esperadas": "3-4", "corners_esperados": "8-11",
+                "cuotas_betsson": { "local": 2.15, "empate": 3.50, "visitante": 3.60 }
+              }
+            },
+            {
+              "numero": 7,
+              "local": "Newcastle United",
+              "visitante": "West Ham United",
+              "hora_inglaterra": "18:30",
+              "hora_chile_clt": "13:30",
+              "fecha_partido": "domingo 17 de mayo",
+              "estadio": "St James' Park",
+              "prediccion": {
+                "pos_local": 8, "pts_local": 52,
+                "pos_visitante": 18, "pts_visitante": 28,
+                "prob_local": 63, "prob_empate": 21, "prob_visitante": 16,
+                "favorito": "local",
+                "goles_esperados": "2-4", "tarjetas_esperadas": "3-5", "corners_esperados": "10-13",
+                "cuotas_betsson": { "local": 1.50, "empate": 4.20, "visitante": 5.80 }
+              }
+            }
+          ],
+          "total_partidos": 7,
+          "nota": "Otros partidos de la jornada 38: Arsenal vs Burnley, Chelsea vs Tottenham, Bournemouth vs Manchester City"
         },
-        {
-          "numero": 5,
-          "local": "Rayo Vallecano",
-          "visitante": "Villarreal CF",
-          "hora_españa": "19:00",
-          "hora_chile_clt": "13:00",
-          "estadio": "Estadio de Vallecas",
-          "prediccion": {
-            "pos_local": 10, "pts_local": 43,
-            "pos_visitante": 3, "pts_visitante": 69,
-            "prob_local": 25, "prob_empate": 25, "prob_visitante": 50,
-            "favorito": "visitante",
-            "goles_esperados": "2-3", "tarjetas_esperadas": "3-4", "corners_esperados": "9-11",
-            "cuotas_betsson": { "local": 3.60, "empate": 4.00, "visitante": 1.75 }
-          }
+        "serie_a": {
+          "nombre": "Serie A (Italia)",
+          "status": "PARTIDOS ENCONTRADOS",
+          "competicion": "Campeonato Italiano",
+          "jornada": "Jornada 37 (penúltima jornada)",
+          "fecha": "domingo 17 de mayo de 2026",
+          "partidos": [
+            {
+              "numero": 1,
+              "local": "Como 1907",
+              "visitante": "Parma FC",
+              "hora_italia": "12:30",
+              "hora_chile_clt": "06:30",
+              "estadio": "Stadio Giuseppe Sinigaglia",
+              "prediccion": {
+                "pos_local": 6, "pts_local": 65,
+                "pos_visitante": 13, "pts_visitante": 42,
+                "prob_local": 58, "prob_empate": 24, "prob_visitante": 18,
+                "favorito": "local",
+                "goles_esperados": "2-3", "tarjetas_esperadas": "3-4", "corners_esperados": "9-11",
+                "cuotas_betsson": { "local": 1.65, "empate": 4.00, "visitante": 4.80 }
+              }
+            },
+            {
+              "numero": 2,
+              "local": "Juventus FC",
+              "visitante": "AC Fiorentina",
+              "hora_italia": "12:30",
+              "hora_chile_clt": "06:30",
+              "estadio": "Allianz Stadium",
+              "prediccion": {
+                "pos_local": 3, "pts_local": 68,
+                "pos_visitante": 15, "pts_visitante": 38,
+                "prob_local": 62, "prob_empate": 22, "prob_visitante": 16,
+                "favorito": "local",
+                "goles_esperados": "2-3", "tarjetas_esperadas": "2-4", "corners_esperados": "9-12",
+                "cuotas_betsson": { "local": 1.55, "empate": 4.00, "visitante": 5.50 }
+              }
+            },
+            {
+              "numero": 3,
+              "local": "Pisa SC",
+              "visitante": "SSC Napoli",
+              "hora_italia": "12:30",
+              "hora_chile_clt": "06:30",
+              "estadio": "Stadio Arena Garibaldi",
+              "prediccion": {
+                "pos_local": 20, "pts_local": 15,
+                "pos_visitante": 2, "pts_visitante": 70,
+                "prob_local": 13, "prob_empate": 19, "prob_visitante": 68,
+                "favorito": "visitante",
+                "goles_esperados": "2-4", "tarjetas_esperadas": "3-5", "corners_esperados": "8-12",
+                "cuotas_betsson": { "local": 7.00, "empate": 5.00, "visitante": 1.35 }
+              }
+            },
+            {
+              "numero": 4,
+              "local": "AS Roma",
+              "visitante": "SS Lazio",
+              "hora_italia": "12:30",
+              "hora_chile_clt": "06:30",
+              "estadio": "Stadio Olimpico",
+              "prediccion": {
+                "pos_local": 5, "pts_local": 67,
+                "pos_visitante": 9, "pts_visitante": 51,
+                "prob_local": 42, "prob_empate": 26, "prob_visitante": 32,
+                "favorito": "local",
+                "goles_esperados": "2-3", "tarjetas_esperadas": "4-6", "corners_esperados": "9-12",
+                "cuotas_betsson": { "local": 2.20, "empate": 3.70, "visitante": 2.90 }
+              }
+            },
+            {
+              "numero": 5,
+              "local": "Genoa CFC",
+              "visitante": "AC Milan",
+              "hora_italia": "12:30",
+              "hora_chile_clt": "06:30",
+              "estadio": "Luigi Ferraris",
+              "prediccion": {
+                "pos_local": 14, "pts_local": 41,
+                "pos_visitante": 4, "pts_visitante": 67,
+                "prob_local": 22, "prob_empate": 26, "prob_visitante": 52,
+                "favorito": "visitante",
+                "goles_esperados": "2-3", "tarjetas_esperadas": "3-4", "corners_esperados": "9-11",
+                "cuotas_betsson": { "local": 4.00, "empate": 3.70, "visitante": 1.70 }
+              }
+            },
+            {
+              "numero": 6,
+              "local": "FC Internazionale",
+              "visitante": "Hellas Verona",
+              "hora_italia": "15:00",
+              "hora_chile_clt": "09:00",
+              "estadio": "Stadio Giuseppe Meazza",
+              "prediccion": {
+                "pos_local": 1, "pts_local": 85,
+                "pos_visitante": 19, "pts_visitante": 20,
+                "prob_local": 80, "prob_empate": 13, "prob_visitante": 7,
+                "favorito": "local",
+                "goles_esperados": "3-5", "tarjetas_esperadas": "2-4", "corners_esperados": "10-14",
+                "cuotas_betsson": { "local": 1.20, "empate": 7.00, "visitante": 11.00 }
+              }
+            },
+            {
+              "numero": 7,
+              "local": "Atalanta BC",
+              "visitante": "Bologna FC",
+              "hora_italia": "18:00",
+              "hora_chile_clt": "12:00",
+              "estadio": "Gewiss Stadium",
+              "prediccion": {
+                "pos_local": 7, "pts_local": 58,
+                "pos_visitante": 8, "pts_visitante": 52,
+                "prob_local": 45, "prob_empate": 28, "prob_visitante": 27,
+                "favorito": "local",
+                "goles_esperados": "2-4", "tarjetas_esperadas": "3-4", "corners_esperados": "9-12",
+                "cuotas_betsson": { "local": 2.10, "empate": 3.50, "visitante": 3.60 }
+              }
+            },
+            {
+              "numero": 8,
+              "local": "Cagliari Calcio",
+              "visitante": "Torino FC",
+              "hora_italia": "20:45",
+              "hora_chile_clt": "14:45",
+              "estadio": "Sardegna Arena",
+              "prediccion": {
+                "pos_local": 16, "pts_local": 37,
+                "pos_visitante": 12, "pts_visitante": 44,
+                "prob_local": 36, "prob_empate": 30, "prob_visitante": 34,
+                "favorito": "local",
+                "goles_esperados": "1-3", "tarjetas_esperadas": "3-5", "corners_esperados": "8-11",
+                "cuotas_betsson": { "local": 2.60, "empate": 3.30, "visitante": 2.80 }
+              }
+            },
+            {
+              "numero": 9,
+              "local": "US Sassuolo",
+              "visitante": "US Lecce",
+              "hora_italia": "20:45",
+              "hora_chile_clt": "14:45",
+              "estadio": "Mapei Stadium",
+              "prediccion": {
+                "pos_local": 11, "pts_local": 49,
+                "pos_visitante": 17, "pts_visitante": 32,
+                "prob_local": 55, "prob_empate": 25, "prob_visitante": 20,
+                "favorito": "local",
+                "goles_esperados": "2-3", "tarjetas_esperadas": "3-4", "corners_esperados": "9-11",
+                "cuotas_betsson": { "local": 1.70, "empate": 3.80, "visitante": 4.50 }
+              }
+            },
+            {
+              "numero": 10,
+              "local": "Udinese Calcio",
+              "visitante": "US Cremonese",
+              "hora_italia": "20:45",
+              "hora_chile_clt": "14:45",
+              "estadio": "Friuli",
+              "prediccion": {
+                "pos_local": 10, "pts_local": 50,
+                "pos_visitante": 18, "pts_visitante": 31,
+                "prob_local": 58, "prob_empate": 25, "prob_visitante": 17,
+                "favorito": "local",
+                "goles_esperados": "2-3", "tarjetas_esperadas": "2-4", "corners_esperados": "9-11",
+                "cuotas_betsson": { "local": 1.65, "empate": 3.90, "visitante": 5.00 }
+              }
+            }
+          ],
+          "total_partidos": 10
         },
-        {
-          "numero": 6,
-          "local": "Real Sociedad",
-          "visitante": "Valencia CF",
-          "hora_españa": "19:00",
-          "hora_chile_clt": "13:00",
-          "estadio": "Anoeta",
-          "prediccion": {
-            "pos_local": 8, "pts_local": 45,
-            "pos_visitante": 14, "pts_visitante": 36,
-            "prob_local": 50, "prob_empate": 28, "prob_visitante": 22,
-            "favorito": "local",
-            "goles_esperados": "2-3", "tarjetas_esperadas": "3-4", "corners_esperados": "9-11",
-            "cuotas_betsson": { "local": 1.85, "empate": 3.50, "visitante": 3.80 }
-          }
+        "championship": {
+          "nombre": "EFL Championship (Segunda División inglesa)",
+          "status": "SIN PARTIDOS",
+          "competicion": "EFL Championship Play-offs 2025-26",
+          "fecha": "16-17 de mayo de 2026",
+          "nota": "Semifinales jugadas (8-13 mayo). Final en Wembley el 23 de mayo: Southampton vs Hull City.",
+          "partidos": [],
+          "total_partidos": 0,
+          "dato_destacado": "Final Wembley (23 mayo): Southampton vs Hull City — el ganador asciende a Premier League"
         },
-        {
-          "numero": 7,
-          "local": "Real Oviedo",
-          "visitante": "Deportivo Alavés",
-          "hora_españa": "19:00",
-          "hora_chile_clt": "13:00",
-          "estadio": "Carlos Tartiere",
-          "prediccion": {
-            "pos_local": 20, "pts_local": 29,
-            "pos_visitante": 17, "pts_visitante": 33,
-            "prob_local": 35, "prob_empate": 32, "prob_visitante": 33,
-            "favorito": "local",
-            "goles_esperados": "1-2", "tarjetas_esperadas": "4-6", "corners_esperados": "7-9",
-            "cuotas_betsson": { "local": 2.50, "empate": 3.20, "visitante": 3.30 }
-          }
+        "campeonato_brasileño": {
+          "nombre": "Campeonato Brasileño - Série A",
+          "status": "INFORMACIÓN LIMITADA",
+          "competicion": "Brasileirão Série A",
+          "rodada": "Rodada 11",
+          "fecha": "16-17 de mayo de 2026",
+          "nota": "Horarios no disponibles aún. Rodada 11 programada para este fin de semana. Consultar cbf.com.br.",
+          "partidos": [],
+          "total_partidos": 0,
+          "recomendacion": "Consultar CBF.com.br, ESPN.com.br o ge.globo.com para horarios exactos"
         },
-        {
-          "numero": 8,
-          "local": "CA Osasuna",
-          "visitante": "RCD Espanyol",
-          "hora_españa": "19:00",
-          "hora_chile_clt": "13:00",
-          "estadio": "Estadio El Sadar",
-          "prediccion": {
-            "pos_local": 15, "pts_local": 35,
-            "pos_visitante": 16, "pts_visitante": 34,
-            "prob_local": 40, "prob_empate": 30, "prob_visitante": 30,
-            "favorito": "local",
-            "goles_esperados": "1-3", "tarjetas_esperadas": "3-5", "corners_esperados": "8-10",
-            "cuotas_betsson": { "local": 2.35, "empate": 3.30, "visitante": 3.30 }
-          }
-        },
-        {
-          "numero": 9,
-          "local": "Sevilla FC",
-          "visitante": "Real Madrid CF",
-          "hora_españa": "19:00",
-          "hora_chile_clt": "13:00",
-          "estadio": "Ramón Sánchez Pizjuán",
-          "prediccion": {
-            "pos_local": 12, "pts_local": 38,
-            "pos_visitante": 2, "pts_visitante": 80,
-            "prob_local": 18, "prob_empate": 22, "prob_visitante": 60,
-            "favorito": "visitante",
-            "goles_esperados": "2-4", "tarjetas_esperadas": "3-5", "corners_esperados": "8-12",
-            "cuotas_betsson": { "local": 5.00, "empate": 4.00, "visitante": 1.45 }
-          }
-        },
-        {
-          "numero": 10,
-          "local": "FC Barcelona",
-          "visitante": "Real Betis",
-          "hora_españa": "21:15",
-          "hora_chile_clt": "15:15",
-          "estadio": "Camp Nou",
-          "prediccion": {
-            "pos_local": 1, "pts_local": 91,
-            "pos_visitante": 5, "pts_visitante": 57,
-            "prob_local": 65, "prob_empate": 20, "prob_visitante": 15,
-            "favorito": "local",
-            "goles_esperados": "2-4", "tarjetas_esperadas": "2-4", "corners_esperados": "9-13",
-            "cuotas_betsson": { "local": 1.40, "empate": 4.80, "visitante": 6.50 }
-          }
+        "copa_do_brasil": {
+          "nombre": "Copa do Brasil",
+          "status": "SIN PARTIDOS",
+          "competicion": "Copa Nacional de Brasil 2026",
+          "fecha": "2026-05-16 a 2026-05-17",
+          "nota": "Sin partidos este fin de semana. Tercera Fase completada en marzo. Oitavas de Final en agosto 2026. Sorteo el 26 de mayo.",
+          "partidos": [],
+          "total_partidos": 0
         }
-      ],
-      "total_partidos": 10
+      }
     },
-    "serie_a": {
-      "nombre": "Serie A (Italia)",
-      "status": "PARTIDOS ENCONTRADOS",
-      "competicion": "Campeonato Italiano",
-      "jornada": "Jornada 37 (penúltima jornada)",
-      "fecha": "domingo 17 de mayo de 2026",
-      "partidos": [
-        {
-          "numero": 1,
-          "local": "Como 1907",
-          "visitante": "Parma FC",
-          "hora_italia": "12:30",
-          "hora_chile_clt": "06:30",
-          "estadio": "Stadio Giuseppe Sinigaglia",
-          "prediccion": {
-            "pos_local": 6, "pts_local": 65,
-            "pos_visitante": 13, "pts_visitante": 42,
-            "prob_local": 58, "prob_empate": 24, "prob_visitante": 18,
-            "favorito": "local",
-            "goles_esperados": "2-3", "tarjetas_esperadas": "3-4", "corners_esperados": "9-11",
-            "cuotas_betsson": { "local": 1.65, "empate": 4.00, "visitante": 4.80 }
-          }
-        },
-        {
-          "numero": 2,
-          "local": "Juventus FC",
-          "visitante": "AC Fiorentina",
-          "hora_italia": "12:30",
-          "hora_chile_clt": "06:30",
-          "estadio": "Allianz Stadium",
-          "prediccion": {
-            "pos_local": 3, "pts_local": 68,
-            "pos_visitante": 15, "pts_visitante": 38,
-            "prob_local": 62, "prob_empate": 22, "prob_visitante": 16,
-            "favorito": "local",
-            "goles_esperados": "2-3", "tarjetas_esperadas": "2-4", "corners_esperados": "9-12",
-            "cuotas_betsson": { "local": 1.55, "empate": 4.00, "visitante": 5.50 }
-          }
-        },
-        {
-          "numero": 3,
-          "local": "Pisa SC",
-          "visitante": "SSC Napoli",
-          "hora_italia": "12:30",
-          "hora_chile_clt": "06:30",
-          "estadio": "Stadio Arena Garibaldi",
-          "prediccion": {
-            "pos_local": 20, "pts_local": 15,
-            "pos_visitante": 2, "pts_visitante": 70,
-            "prob_local": 13, "prob_empate": 19, "prob_visitante": 68,
-            "favorito": "visitante",
-            "goles_esperados": "2-4", "tarjetas_esperadas": "3-5", "corners_esperados": "8-12",
-            "cuotas_betsson": { "local": 7.00, "empate": 5.00, "visitante": 1.35 }
-          }
-        },
-        {
-          "numero": 4,
-          "local": "AS Roma",
-          "visitante": "SS Lazio",
-          "hora_italia": "12:30",
-          "hora_chile_clt": "06:30",
-          "estadio": "Stadio Olimpico",
-          "prediccion": {
-            "pos_local": 5, "pts_local": 67,
-            "pos_visitante": 9, "pts_visitante": 51,
-            "prob_local": 42, "prob_empate": 26, "prob_visitante": 32,
-            "favorito": "local",
-            "goles_esperados": "2-3", "tarjetas_esperadas": "4-6", "corners_esperados": "9-12",
-            "cuotas_betsson": { "local": 2.20, "empate": 3.70, "visitante": 2.90 }
-          }
-        },
-        {
-          "numero": 5,
-          "local": "Genoa CFC",
-          "visitante": "AC Milan",
-          "hora_italia": "12:30",
-          "hora_chile_clt": "06:30",
-          "estadio": "Luigi Ferraris",
-          "prediccion": {
-            "pos_local": 14, "pts_local": 41,
-            "pos_visitante": 4, "pts_visitante": 67,
-            "prob_local": 22, "prob_empate": 26, "prob_visitante": 52,
-            "favorito": "visitante",
-            "goles_esperados": "2-3", "tarjetas_esperadas": "3-4", "corners_esperados": "9-11",
-            "cuotas_betsson": { "local": 4.00, "empate": 3.70, "visitante": 1.70 }
-          }
-        },
-        {
-          "numero": 6,
-          "local": "FC Internazionale",
-          "visitante": "Hellas Verona",
-          "hora_italia": "15:00",
-          "hora_chile_clt": "09:00",
-          "estadio": "Stadio Giuseppe Meazza",
-          "prediccion": {
-            "pos_local": 1, "pts_local": 85,
-            "pos_visitante": 19, "pts_visitante": 20,
-            "prob_local": 80, "prob_empate": 13, "prob_visitante": 7,
-            "favorito": "local",
-            "goles_esperados": "3-5", "tarjetas_esperadas": "2-4", "corners_esperados": "10-14",
-            "cuotas_betsson": { "local": 1.20, "empate": 7.00, "visitante": 11.00 }
-          }
-        },
-        {
-          "numero": 7,
-          "local": "Atalanta BC",
-          "visitante": "Bologna FC",
-          "hora_italia": "18:00",
-          "hora_chile_clt": "12:00",
-          "estadio": "Gewiss Stadium",
-          "prediccion": {
-            "pos_local": 7, "pts_local": 58,
-            "pos_visitante": 8, "pts_visitante": 52,
-            "prob_local": 45, "prob_empate": 28, "prob_visitante": 27,
-            "favorito": "local",
-            "goles_esperados": "2-4", "tarjetas_esperadas": "3-4", "corners_esperados": "9-12",
-            "cuotas_betsson": { "local": 2.10, "empate": 3.50, "visitante": 3.60 }
-          }
-        },
-        {
-          "numero": 8,
-          "local": "Cagliari Calcio",
-          "visitante": "Torino FC",
-          "hora_italia": "20:45",
-          "hora_chile_clt": "14:45",
-          "estadio": "Sardegna Arena",
-          "prediccion": {
-            "pos_local": 16, "pts_local": 37,
-            "pos_visitante": 12, "pts_visitante": 44,
-            "prob_local": 36, "prob_empate": 30, "prob_visitante": 34,
-            "favorito": "local",
-            "goles_esperados": "1-3", "tarjetas_esperadas": "3-5", "corners_esperados": "8-11",
-            "cuotas_betsson": { "local": 2.60, "empate": 3.30, "visitante": 2.80 }
-          }
-        },
-        {
-          "numero": 9,
-          "local": "US Sassuolo",
-          "visitante": "US Lecce",
-          "hora_italia": "20:45",
-          "hora_chile_clt": "14:45",
-          "estadio": "Mapei Stadium",
-          "prediccion": {
-            "pos_local": 11, "pts_local": 49,
-            "pos_visitante": 17, "pts_visitante": 32,
-            "prob_local": 55, "prob_empate": 25, "prob_visitante": 20,
-            "favorito": "local",
-            "goles_esperados": "2-3", "tarjetas_esperadas": "3-4", "corners_esperados": "9-11",
-            "cuotas_betsson": { "local": 1.70, "empate": 3.80, "visitante": 4.50 }
-          }
-        },
-        {
-          "numero": 10,
-          "local": "Udinese Calcio",
-          "visitante": "US Cremonese",
-          "hora_italia": "20:45",
-          "hora_chile_clt": "14:45",
-          "estadio": "Friuli",
-          "prediccion": {
-            "pos_local": 10, "pts_local": 50,
-            "pos_visitante": 18, "pts_visitante": 31,
-            "prob_local": 58, "prob_empate": 25, "prob_visitante": 17,
-            "favorito": "local",
-            "goles_esperados": "2-3", "tarjetas_esperadas": "2-4", "corners_esperados": "9-11",
-            "cuotas_betsson": { "local": 1.65, "empate": 3.90, "visitante": 5.00 }
-          }
+    "nba": {
+      "nombre": "NBA",
+      "icono": "🏀",
+      "ligas": {
+        "nba_playoffs": {
+          "nombre": "NBA Playoffs 2026",
+          "tipo": "baloncesto",
+          "status": "PARTIDOS CONFIRMADOS / CONDICIONALES",
+          "competicion": "NBA Playoffs 2026",
+          "ronda": "Semis de Conferencia (Game 7) y/o Finales de Conferencia (Game 1)",
+          "fecha": "17 de mayo de 2026",
+          "nota": "Según resultado del Game 6 (15 mayo), el domingo 17 puede haber Game 7 o inicio de Conference Finals.",
+          "partidos": [
+            {
+              "numero": 1,
+              "local": "Detroit Pistons",
+              "visitante": "Cleveland Cavaliers",
+              "tipo_partido": "Game 7 CONDICIONAL",
+              "condicional": true,
+              "serie": "Semis del Este",
+              "estado_serie": "Cavaliers lideran 3-2",
+              "hora_et": "~19:00 ET",
+              "hora_chile_clt": "~19:00 CLT",
+              "estadio": "Little Caesars Arena, Detroit",
+              "prediccion_nba": {
+                "seed_local": 6, "record_local": "42-40",
+                "seed_visitante": 2, "record_visitante": "53-29",
+                "prob_local": 42, "prob_visitante": 58,
+                "favorito": "visitante",
+                "total_pts_esperados": "212-220",
+                "spread": "CLE -4.5",
+                "cuotas_betsson": { "local": 2.20, "visitante": 1.65 }
+              }
+            },
+            {
+              "numero": 2,
+              "local": "New York Knicks",
+              "visitante": "Cleveland Cavaliers",
+              "tipo_partido": "ECF Game 1 CONDICIONAL",
+              "condicional": true,
+              "serie": "Finales del Este",
+              "estado_serie": "Knicks barrieron a 76ers (4-0)",
+              "hora_et": "~20:30 ET",
+              "hora_chile_clt": "~20:30 CLT",
+              "estadio": "Madison Square Garden, Nueva York",
+              "prediccion_nba": {
+                "seed_local": 3, "record_local": "50-32",
+                "seed_visitante": 2, "record_visitante": "53-29",
+                "prob_local": 52, "prob_visitante": 48,
+                "favorito": "local",
+                "total_pts_esperados": "210-218",
+                "spread": "NYK -1.5",
+                "cuotas_betsson": { "local": 1.90, "visitante": 1.90 }
+              }
+            },
+            {
+              "numero": 3,
+              "local": "San Antonio Spurs",
+              "visitante": "Minnesota Timberwolves",
+              "tipo_partido": "Game 7 CONDICIONAL",
+              "condicional": true,
+              "serie": "Semis del Oeste",
+              "estado_serie": "Spurs lideran 3-2",
+              "hora_et": "TBD",
+              "hora_chile_clt": "TBD",
+              "estadio": "AT&T Center, San Antonio",
+              "prediccion_nba": {
+                "seed_local": 5, "record_local": "44-38",
+                "seed_visitante": 4, "record_visitante": "47-35",
+                "prob_local": 54, "prob_visitante": 46,
+                "favorito": "local",
+                "total_pts_esperados": "215-225",
+                "spread": "SAS -2.5",
+                "cuotas_betsson": { "local": 1.85, "visitante": 1.95 }
+              }
+            }
+          ],
+          "total_partidos": 3,
+          "nota_importante": "WCF: Oklahoma City Thunder (#1 Oeste) vs ganador Spurs/Wolves. ECF: Knicks vs ganador Cavs/Pistons."
         }
-      ],
-      "total_partidos": 10
-    },
-    "bundesliga": {
-      "nombre": "Bundesliga (Alemania)",
-      "status": "PARTIDOS ENCONTRADOS",
-      "competicion": "Primera División Alemana",
-      "jornada": "Jornada 34 (última jornada - fin de temporada)",
-      "fecha": "sábado 16 de mayo de 2026",
-      "formato": "Horario unificado - todos los partidos simultáneos a las 15:30 (Alemania)",
-      "nota": "Jornada histórica: los tres últimos equipos entran con los mismos puntos (26). Descenso definido hoy.",
-      "partidos": [
-        {
-          "numero": 1,
-          "local": "Bayern München",
-          "visitante": "1. FC Köln",
-          "hora_alemania": "15:30",
-          "hora_chile_clt": "09:30",
-          "estadio": "Allianz Arena",
-          "prediccion": {
-            "pos_local": 1, "pts_local": 86,
-            "pos_visitante": 14, "pts_visitante": 32,
-            "prob_local": 82, "prob_empate": 11, "prob_visitante": 7,
-            "favorito": "local",
-            "goles_esperados": "3-5", "tarjetas_esperadas": "2-4", "corners_esperados": "10-14",
-            "cuotas_betsson": { "local": 1.15, "empate": 8.00, "visitante": 14.00 }
-          }
-        },
-        {
-          "numero": 2,
-          "local": "Bayer 04 Leverkusen",
-          "visitante": "Hamburger SV",
-          "hora_alemania": "15:30",
-          "hora_chile_clt": "09:30",
-          "estadio": "BayArena",
-          "prediccion": {
-            "pos_local": 6, "pts_local": 58,
-            "pos_visitante": 11, "pts_visitante": 37,
-            "prob_local": 60, "prob_empate": 22, "prob_visitante": 18,
-            "favorito": "local",
-            "goles_esperados": "2-3", "tarjetas_esperadas": "2-4", "corners_esperados": "9-12",
-            "cuotas_betsson": { "local": 1.55, "empate": 4.20, "visitante": 5.00 }
-          }
-        },
-        {
-          "numero": 3,
-          "local": "Eintracht Frankfurt",
-          "visitante": "VfB Stuttgart",
-          "hora_alemania": "15:30",
-          "hora_chile_clt": "09:30",
-          "estadio": "Deutsche Bank Park",
-          "prediccion": {
-            "pos_local": 8, "pts_local": 43,
-            "pos_visitante": 4, "pts_visitante": 61,
-            "prob_local": 36, "prob_empate": 28, "prob_visitante": 36,
-            "favorito": "empate",
-            "goles_esperados": "2-4", "tarjetas_esperadas": "2-4", "corners_esperados": "9-12",
-            "cuotas_betsson": { "local": 2.55, "empate": 3.40, "visitante": 2.70 }
-          }
-        },
-        {
-          "numero": 4,
-          "local": "SC Freiburg",
-          "visitante": "RB Leipzig",
-          "hora_alemania": "15:30",
-          "hora_chile_clt": "09:30",
-          "estadio": "Europa-Park Stadion",
-          "prediccion": {
-            "pos_local": 7, "pts_local": 44,
-            "pos_visitante": 3, "pts_visitante": 65,
-            "prob_local": 27, "prob_empate": 27, "prob_visitante": 46,
-            "favorito": "visitante",
-            "goles_esperados": "2-4", "tarjetas_esperadas": "2-4", "corners_esperados": "9-12",
-            "cuotas_betsson": { "local": 3.30, "empate": 3.50, "visitante": 1.90 }
-          }
-        },
-        {
-          "numero": 5,
-          "local": "Werder Bremen",
-          "visitante": "Borussia Dortmund",
-          "hora_alemania": "15:30",
-          "hora_chile_clt": "09:30",
-          "estadio": "Weserstadion",
-          "prediccion": {
-            "pos_local": 15, "pts_local": 32,
-            "pos_visitante": 2, "pts_visitante": 70,
-            "prob_local": 20, "prob_empate": 24, "prob_visitante": 56,
-            "favorito": "visitante",
-            "goles_esperados": "2-4", "tarjetas_esperadas": "2-4", "corners_esperados": "9-12",
-            "cuotas_betsson": { "local": 4.50, "empate": 4.00, "visitante": 1.60 }
-          }
-        },
-        {
-          "numero": 6,
-          "local": "Borussia Mönchengladbach",
-          "visitante": "TSG Hoffenheim",
-          "hora_alemania": "15:30",
-          "hora_chile_clt": "09:30",
-          "estadio": "Borussia-Park",
-          "prediccion": {
-            "pos_local": 13, "pts_local": 35,
-            "pos_visitante": 5, "pts_visitante": 61,
-            "prob_local": 27, "prob_empate": 27, "prob_visitante": 46,
-            "favorito": "visitante",
-            "goles_esperados": "2-4", "tarjetas_esperadas": "2-4", "corners_esperados": "8-11",
-            "cuotas_betsson": { "local": 3.30, "empate": 3.50, "visitante": 1.90 }
-          }
-        },
-        {
-          "numero": 7,
-          "local": "1. FC Union Berlin",
-          "visitante": "FC Augsburg",
-          "hora_alemania": "15:30",
-          "hora_chile_clt": "09:30",
-          "estadio": "An der Alten Försterei",
-          "prediccion": {
-            "pos_local": 12, "pts_local": 36,
-            "pos_visitante": 9, "pts_visitante": 43,
-            "prob_local": 40, "prob_empate": 30, "prob_visitante": 30,
-            "favorito": "local",
-            "goles_esperados": "1-3", "tarjetas_esperadas": "2-4", "corners_esperados": "8-10",
-            "cuotas_betsson": { "local": 2.35, "empate": 3.30, "visitante": 3.30 }
-          }
-        },
-        {
-          "numero": 8,
-          "local": "FC St. Pauli",
-          "visitante": "VfL Wolfsburg",
-          "hora_alemania": "15:30",
-          "hora_chile_clt": "09:30",
-          "estadio": "Millerntor-Stadion",
-          "prediccion": {
-            "pos_local": 18, "pts_local": 26,
-            "pos_visitante": 16, "pts_visitante": 26,
-            "prob_local": 38, "prob_empate": 28, "prob_visitante": 34,
-            "favorito": "local",
-            "goles_esperados": "1-3", "tarjetas_esperadas": "3-5", "corners_esperados": "8-11",
-            "cuotas_betsson": { "local": 2.40, "empate": 3.30, "visitante": 2.90 }
-          }
-        },
-        {
-          "numero": 9,
-          "local": "1. FC Heidenheim",
-          "visitante": "1. FSV Mainz 05",
-          "hora_alemania": "15:30",
-          "hora_chile_clt": "09:30",
-          "estadio": "Voith-Arena",
-          "prediccion": {
-            "pos_local": 17, "pts_local": 26,
-            "pos_visitante": 10, "pts_visitante": 37,
-            "prob_local": 33, "prob_empate": 28, "prob_visitante": 39,
-            "favorito": "visitante",
-            "goles_esperados": "1-3", "tarjetas_esperadas": "3-5", "corners_esperados": "8-11",
-            "cuotas_betsson": { "local": 2.70, "empate": 3.40, "visitante": 2.50 }
-          }
-        }
-      ],
-      "total_partidos": 9
-    },
-    "campeonato_brasileño": {
-      "nombre": "Campeonato Brasileño - Série A",
-      "status": "INFORMACIÓN LIMITADA",
-      "competicion": "Brasileirão Série A",
-      "rodada": "Rodada 11",
-      "fecha": "16-17 de mayo de 2026",
-      "nota": "Horarios no disponibles aún. Rodada 11 programada para este fin de semana. Consultar cbf.com.br.",
-      "partidos": [],
-      "total_partidos": 0,
-      "recomendacion": "Consultar CBF.com.br, ESPN.com.br o ge.globo.com para horarios exactos"
-    },
-    "copa_do_brasil": {
-      "nombre": "Copa do Brasil",
-      "status": "SIN PARTIDOS",
-      "competicion": "Copa Nacional de Brasil 2026",
-      "fecha": "2026-05-16 a 2026-05-17",
-      "nota": "Sin partidos este fin de semana. Tercera Fase completada en marzo. Oitavas de Final en agosto 2026. Sorteo el 26 de mayo.",
-      "partidos": [],
-      "total_partidos": 0
-    },
-    "premier_league": {
-      "nombre": "Premier League (Inglaterra)",
-      "status": "PARTIDOS ENCONTRADOS",
-      "competicion": "Primera División Inglesa",
-      "jornada": "Jornada 38 (última jornada)",
-      "fecha": "16-17 de mayo de 2026",
-      "partidos": [
-        {
-          "numero": 1,
-          "local": "Aston Villa",
-          "visitante": "Liverpool FC",
-          "hora_inglaterra": "15:00",
-          "hora_chile_clt": "10:00",
-          "fecha_partido": "sábado 16 de mayo",
-          "estadio": "Villa Park",
-          "prediccion": {
-            "pos_local": 5, "pts_local": 63,
-            "pos_visitante": 4, "pts_visitante": 68,
-            "prob_local": 36, "prob_empate": 28, "prob_visitante": 36,
-            "favorito": "empate",
-            "goles_esperados": "2-3", "tarjetas_esperadas": "2-4", "corners_esperados": "9-12",
-            "cuotas_betsson": { "local": 2.55, "empate": 3.50, "visitante": 2.65 }
-          }
-        },
-        {
-          "numero": 2,
-          "local": "Manchester United",
-          "visitante": "Nottingham Forest",
-          "hora_inglaterra": "13:30",
-          "hora_chile_clt": "08:30",
-          "fecha_partido": "domingo 17 de mayo",
-          "estadio": "Old Trafford",
-          "prediccion": {
-            "pos_local": 3, "pts_local": 69,
-            "pos_visitante": 13, "pts_visitante": 40,
-            "prob_local": 62, "prob_empate": 22, "prob_visitante": 16,
-            "favorito": "local",
-            "goles_esperados": "2-3", "tarjetas_esperadas": "2-4", "corners_esperados": "9-12",
-            "cuotas_betsson": { "local": 1.55, "empate": 4.20, "visitante": 5.50 }
-          }
-        },
-        {
-          "numero": 3,
-          "local": "Wolverhampton",
-          "visitante": "Fulham FC",
-          "hora_inglaterra": "16:00",
-          "hora_chile_clt": "11:00",
-          "fecha_partido": "domingo 17 de mayo",
-          "estadio": "Molineux Stadium",
-          "prediccion": {
-            "pos_local": 15, "pts_local": 35,
-            "pos_visitante": 10, "pts_visitante": 46,
-            "prob_local": 30, "prob_empate": 30, "prob_visitante": 40,
-            "favorito": "visitante",
-            "goles_esperados": "1-3", "tarjetas_esperadas": "3-4", "corners_esperados": "9-11",
-            "cuotas_betsson": { "local": 3.10, "empate": 3.40, "visitante": 2.20 }
-          }
-        },
-        {
-          "numero": 4,
-          "local": "Leeds United",
-          "visitante": "Brighton & Hove Albion",
-          "hora_inglaterra": "16:00",
-          "hora_chile_clt": "11:00",
-          "fecha_partido": "domingo 17 de mayo",
-          "estadio": "Elland Road",
-          "prediccion": {
-            "pos_local": 12, "pts_local": 42,
-            "pos_visitante": 7, "pts_visitante": 55,
-            "prob_local": 33, "prob_empate": 28, "prob_visitante": 39,
-            "favorito": "visitante",
-            "goles_esperados": "2-3", "tarjetas_esperadas": "2-4", "corners_esperados": "9-12",
-            "cuotas_betsson": { "local": 2.80, "empate": 3.50, "visitante": 2.35 }
-          }
-        },
-        {
-          "numero": 5,
-          "local": "Brentford FC",
-          "visitante": "Crystal Palace",
-          "hora_inglaterra": "16:00",
-          "hora_chile_clt": "11:00",
-          "fecha_partido": "domingo 17 de mayo",
-          "estadio": "Gtech Community Stadium",
-          "prediccion": {
-            "pos_local": 11, "pts_local": 44,
-            "pos_visitante": 9, "pts_visitante": 48,
-            "prob_local": 40, "prob_empate": 30, "prob_visitante": 30,
-            "favorito": "local",
-            "goles_esperados": "2-3", "tarjetas_esperadas": "2-4", "corners_esperados": "9-11",
-            "cuotas_betsson": { "local": 2.35, "empate": 3.40, "visitante": 3.30 }
-          }
-        },
-        {
-          "numero": 6,
-          "local": "Everton FC",
-          "visitante": "Sunderland AFC",
-          "hora_inglaterra": "16:00",
-          "hora_chile_clt": "11:00",
-          "fecha_partido": "domingo 17 de mayo",
-          "estadio": "Goodison Park",
-          "prediccion": {
-            "pos_local": 14, "pts_local": 38,
-            "pos_visitante": 16, "pts_visitante": 33,
-            "prob_local": 43, "prob_empate": 28, "prob_visitante": 29,
-            "favorito": "local",
-            "goles_esperados": "1-3", "tarjetas_esperadas": "3-4", "corners_esperados": "8-11",
-            "cuotas_betsson": { "local": 2.15, "empate": 3.50, "visitante": 3.60 }
-          }
-        },
-        {
-          "numero": 7,
-          "local": "Newcastle United",
-          "visitante": "West Ham United",
-          "hora_inglaterra": "18:30",
-          "hora_chile_clt": "13:30",
-          "fecha_partido": "domingo 17 de mayo",
-          "estadio": "St James' Park",
-          "prediccion": {
-            "pos_local": 8, "pts_local": 52,
-            "pos_visitante": 18, "pts_visitante": 28,
-            "prob_local": 63, "prob_empate": 21, "prob_visitante": 16,
-            "favorito": "local",
-            "goles_esperados": "2-4", "tarjetas_esperadas": "3-5", "corners_esperados": "10-13",
-            "cuotas_betsson": { "local": 1.50, "empate": 4.20, "visitante": 5.80 }
-          }
-        }
-      ],
-      "total_partidos": 7,
-      "nota": "Otros partidos de la jornada 38: Arsenal vs Burnley, Chelsea vs Tottenham, Bournemouth vs Manchester City"
-    },
-    "championship": {
-      "nombre": "EFL Championship (Segunda División inglesa)",
-      "status": "SIN PARTIDOS",
-      "competicion": "EFL Championship Play-offs 2025-26",
-      "fecha": "16-17 de mayo de 2026",
-      "nota": "Semifinales jugadas (8-13 mayo). Final en Wembley el 23 de mayo: Southampton vs Hull City.",
-      "partidos": [],
-      "total_partidos": 0,
-      "dato_destacado": "Final Wembley (23 mayo): Southampton vs Hull City — el ganador asciende a Premier League"
-    },
-    "nba_playoffs": {
-      "nombre": "NBA Playoffs 2026",
-      "tipo": "baloncesto",
-      "status": "PARTIDOS CONFIRMADOS / CONDICIONALES",
-      "competicion": "NBA Playoffs 2026",
-      "ronda": "Semis de Conferencia (Game 7) y/o Finales de Conferencia (Game 1)",
-      "fecha": "17 de mayo de 2026",
-      "nota": "Según resultado del Game 6 (15 mayo), el domingo 17 puede haber Game 7 o inicio de Conference Finals.",
-      "partidos": [
-        {
-          "numero": 1,
-          "local": "Detroit Pistons",
-          "visitante": "Cleveland Cavaliers",
-          "tipo_partido": "Game 7 CONDICIONAL",
-          "condicional": true,
-          "serie": "Semis del Este",
-          "estado_serie": "Cavaliers lideran 3-2",
-          "hora_et": "~19:00 ET",
-          "hora_chile_clt": "~19:00 CLT",
-          "estadio": "Little Caesars Arena, Detroit",
-          "prediccion_nba": {
-            "seed_local": 6, "record_local": "42-40",
-            "seed_visitante": 2, "record_visitante": "53-29",
-            "prob_local": 42, "prob_visitante": 58,
-            "favorito": "visitante",
-            "total_pts_esperados": "212-220",
-            "spread": "CLE -4.5",
-            "cuotas_betsson": { "local": 2.20, "visitante": 1.65 }
-          }
-        },
-        {
-          "numero": 2,
-          "local": "New York Knicks",
-          "visitante": "Cleveland Cavaliers",
-          "tipo_partido": "ECF Game 1 CONDICIONAL",
-          "condicional": true,
-          "serie": "Finales del Este",
-          "estado_serie": "Knicks barrieron a 76ers (4-0)",
-          "hora_et": "~20:30 ET",
-          "hora_chile_clt": "~20:30 CLT",
-          "estadio": "Madison Square Garden, Nueva York",
-          "prediccion_nba": {
-            "seed_local": 3, "record_local": "50-32",
-            "seed_visitante": 2, "record_visitante": "53-29",
-            "prob_local": 52, "prob_visitante": 48,
-            "favorito": "local",
-            "total_pts_esperados": "210-218",
-            "spread": "NYK -1.5",
-            "cuotas_betsson": { "local": 1.90, "visitante": 1.90 }
-          }
-        },
-        {
-          "numero": 3,
-          "local": "San Antonio Spurs",
-          "visitante": "Minnesota Timberwolves",
-          "tipo_partido": "Game 7 CONDICIONAL",
-          "condicional": true,
-          "serie": "Semis del Oeste",
-          "estado_serie": "Spurs lideran 3-2",
-          "hora_et": "TBD",
-          "hora_chile_clt": "TBD",
-          "estadio": "AT&T Center, San Antonio",
-          "prediccion_nba": {
-            "seed_local": 5, "record_local": "44-38",
-            "seed_visitante": 4, "record_visitante": "47-35",
-            "prob_local": 54, "prob_visitante": 46,
-            "favorito": "local",
-            "total_pts_esperados": "215-225",
-            "spread": "SAS -2.5",
-            "cuotas_betsson": { "local": 1.85, "visitante": 1.95 }
-          }
-        }
-      ],
-      "total_partidos": 3,
-      "nota_importante": "WCF: Oklahoma City Thunder (#1 Oeste) vs ganador Spurs/Wolves. ECF: Knicks vs ganador Cavs/Pistons."
+      }
     },
     "tenis": {
       "nombre": "Tenis",
-      "tipo": "tenis",
-      "status": "PARTIDOS ENCONTRADOS",
-      "competicion": "ATP & WTA — Clay Swing",
-      "fecha": "16-17 de mayo de 2026",
-      "partidos": [
-        {
-          "tipo_match": "FINAL WTA 1000",
-          "torneo": "Internazionali BNL d'Italia",
-          "categoria": "WTA 1000 · Tierra Batida",
-          "jugador1": "Coco Gauff",
-          "jugador2": "Elina Svitolina",
-          "pais1": "🇺🇸",
-          "pais2": "🇺🇦",
-          "ranking1": "WTA #3",
-          "ranking2": "WTA #20",
-          "hora_chile_clt": "09:00",
-          "hora_local": "15:00 (IT)",
-          "fecha_partido": "sábado 16 de mayo",
-          "estadio": "Foro Italico, Roma",
-          "prediccion_tenis": {
-            "prob_j1": 55, "prob_j2": 45,
-            "favorito": "j1",
-            "sets_esperados": "2-3 sets",
-            "total_games": "18-24",
-            "aces_esperados": "3-6",
-            "cuotas_betsson": { "j1": 1.75, "j2": 2.15 }
-          }
-        },
-        {
-          "tipo_match": "FINAL ATP Masters 1000",
-          "torneo": "Internazionali BNL d'Italia",
-          "categoria": "ATP Masters 1000 · Tierra Batida",
-          "jugador1": "Jannik Sinner",
-          "jugador2": "Casper Ruud",
-          "pais1": "🇮🇹",
-          "pais2": "🇳🇴",
-          "ranking1": "ATP #1",
-          "ranking2": "ATP #15",
-          "hora_chile_clt": "11:00",
-          "hora_local": "17:00 (IT)",
-          "fecha_partido": "domingo 17 de mayo",
-          "estadio": "Foro Italico, Roma",
-          "nota": "Final sujeta a resultado de semis del 15 mayo: Sinner vs Medvedev / Ruud vs Darderi",
-          "prediccion_tenis": {
-            "prob_j1": 68, "prob_j2": 32,
-            "favorito": "j1",
-            "sets_esperados": "3 sets",
-            "total_games": "22-26",
-            "aces_esperados": "8-14",
-            "cuotas_betsson": { "j1": 1.40, "j2": 2.80 }
-          }
-        },
-        {
-          "tipo_match": "1ra RONDA WTA 500",
-          "torneo": "Internationaux de Strasbourg",
-          "categoria": "WTA 500 · Tierra Batida",
-          "jugador1": "Madison Keys",
-          "jugador2": "Por definir",
-          "pais1": "🇺🇸",
-          "pais2": "🏳️",
-          "ranking1": "WTA #16",
-          "ranking2": "WTA ~#75",
-          "hora_chile_clt": "~05:00",
-          "hora_local": "~11:00 (FR)",
-          "fecha_partido": "domingo 17 de mayo",
-          "estadio": "Tennis Club de Strasbourg, Francia",
-          "nota": "Torneo WTA 500 de arcilla, previo al Roland Garros. Rivales por definir en sorteo del 15 mayo.",
-          "prediccion_tenis": {
-            "prob_j1": 72, "prob_j2": 28,
-            "favorito": "j1",
-            "sets_esperados": "2 sets",
-            "total_games": "16-20",
-            "aces_esperados": "3-6",
-            "cuotas_betsson": { "j1": 1.30, "j2": 3.50 }
-          }
-        },
-        {
-          "tipo_match": "1ra RONDA WTA 500",
-          "torneo": "Internationaux de Strasbourg",
-          "categoria": "WTA 500 · Tierra Batida",
-          "jugador1": "Emma Raducanu",
-          "jugador2": "Por definir",
-          "pais1": "🇬🇧",
-          "pais2": "🏳️",
-          "ranking1": "WTA #52",
-          "ranking2": "WTA ~#90",
-          "hora_chile_clt": "~07:00",
-          "hora_local": "~13:00 (FR)",
-          "fecha_partido": "domingo 17 de mayo",
-          "estadio": "Tennis Club de Strasbourg, Francia",
-          "nota": "Raducanu regresa tras más de 2 meses de baja por lesión. Primera competencia en clay de la temporada.",
-          "prediccion_tenis": {
-            "prob_j1": 60, "prob_j2": 40,
-            "favorito": "j1",
-            "sets_esperados": "2-3 sets",
-            "total_games": "18-23",
-            "aces_esperados": "2-5",
-            "cuotas_betsson": { "j1": 1.55, "j2": 2.45 }
-          }
-        },
-        {
-          "tipo_match": "1ra RONDA WTA 500",
-          "torneo": "Internationaux de Strasbourg",
-          "categoria": "WTA 500 · Tierra Batida",
-          "jugador1": "Victoria Mboko",
-          "jugador2": "Por definir",
-          "pais1": "🇨🇦",
-          "pais2": "🏳️",
-          "ranking1": "WTA #38 (1° semilla)",
-          "ranking2": "WTA ~#80",
-          "hora_chile_clt": "~09:00",
-          "hora_local": "~15:00 (FR)",
-          "fecha_partido": "domingo 17 de mayo",
-          "estadio": "Tennis Club de Strasbourg, Francia",
-          "nota": "Mboko es la cabeza de serie #1 del torneo. Canadiense en ascenso en el circuito WTA.",
-          "prediccion_tenis": {
-            "prob_j1": 75, "prob_j2": 25,
-            "favorito": "j1",
-            "sets_esperados": "2 sets",
-            "total_games": "16-20",
-            "aces_esperados": "3-5",
-            "cuotas_betsson": { "j1": 1.25, "j2": 4.00 }
-          }
+      "icono": "🎾",
+      "ligas": {
+        "tenis": {
+          "nombre": "Tenis",
+          "tipo": "tenis",
+          "status": "PARTIDOS ENCONTRADOS",
+          "competicion": "ATP & WTA — Clay Swing",
+          "fecha": "16-17 de mayo de 2026",
+          "partidos": [
+            {
+              "tipo_match": "FINAL WTA 1000",
+              "torneo": "Internazionali BNL d'Italia",
+              "categoria": "WTA 1000 · Tierra Batida",
+              "jugador1": "Coco Gauff",
+              "jugador2": "Elina Svitolina",
+              "pais1": "🇺🇸",
+              "pais2": "🇺🇦",
+              "ranking1": "WTA #3",
+              "ranking2": "WTA #20",
+              "hora_chile_clt": "09:00",
+              "hora_local": "15:00 (IT)",
+              "fecha_partido": "sábado 16 de mayo",
+              "estadio": "Foro Italico, Roma",
+              "prediccion_tenis": {
+                "prob_j1": 55, "prob_j2": 45,
+                "favorito": "j1",
+                "sets_esperados": "2-3 sets",
+                "total_games": "18-24",
+                "aces_esperados": "3-6",
+                "cuotas_betsson": { "j1": 1.75, "j2": 2.15 }
+              }
+            },
+            {
+              "tipo_match": "FINAL ATP Masters 1000",
+              "torneo": "Internazionali BNL d'Italia",
+              "categoria": "ATP Masters 1000 · Tierra Batida",
+              "jugador1": "Jannik Sinner",
+              "jugador2": "Casper Ruud",
+              "pais1": "🇮🇹",
+              "pais2": "🇳🇴",
+              "ranking1": "ATP #1",
+              "ranking2": "ATP #15",
+              "hora_chile_clt": "11:00",
+              "hora_local": "17:00 (IT)",
+              "fecha_partido": "domingo 17 de mayo",
+              "estadio": "Foro Italico, Roma",
+              "nota": "Final sujeta a resultado de semis del 15 mayo: Sinner vs Medvedev / Ruud vs Darderi",
+              "prediccion_tenis": {
+                "prob_j1": 68, "prob_j2": 32,
+                "favorito": "j1",
+                "sets_esperados": "3 sets",
+                "total_games": "22-26",
+                "aces_esperados": "8-14",
+                "cuotas_betsson": { "j1": 1.40, "j2": 2.80 }
+              }
+            },
+            {
+              "tipo_match": "1ra RONDA WTA 500",
+              "torneo": "Internationaux de Strasbourg",
+              "categoria": "WTA 500 · Tierra Batida",
+              "jugador1": "Madison Keys",
+              "jugador2": "Por definir",
+              "pais1": "🇺🇸",
+              "pais2": "🏳️",
+              "ranking1": "WTA #16",
+              "ranking2": "WTA ~#75",
+              "hora_chile_clt": "~05:00",
+              "hora_local": "~11:00 (FR)",
+              "fecha_partido": "domingo 17 de mayo",
+              "estadio": "Tennis Club de Strasbourg, Francia",
+              "nota": "Torneo WTA 500 de arcilla, previo al Roland Garros. Rivales por definir en sorteo del 15 mayo.",
+              "prediccion_tenis": {
+                "prob_j1": 72, "prob_j2": 28,
+                "favorito": "j1",
+                "sets_esperados": "2 sets",
+                "total_games": "16-20",
+                "aces_esperados": "3-6",
+                "cuotas_betsson": { "j1": 1.30, "j2": 3.50 }
+              }
+            },
+            {
+              "tipo_match": "1ra RONDA WTA 500",
+              "torneo": "Internationaux de Strasbourg",
+              "categoria": "WTA 500 · Tierra Batida",
+              "jugador1": "Emma Raducanu",
+              "jugador2": "Por definir",
+              "pais1": "🇬🇧",
+              "pais2": "🏳️",
+              "ranking1": "WTA #52",
+              "ranking2": "WTA ~#90",
+              "hora_chile_clt": "~07:00",
+              "hora_local": "~13:00 (FR)",
+              "fecha_partido": "domingo 17 de mayo",
+              "estadio": "Tennis Club de Strasbourg, Francia",
+              "nota": "Raducanu regresa tras más de 2 meses de baja por lesión. Primera competencia en clay de la temporada.",
+              "prediccion_tenis": {
+                "prob_j1": 60, "prob_j2": 40,
+                "favorito": "j1",
+                "sets_esperados": "2-3 sets",
+                "total_games": "18-23",
+                "aces_esperados": "2-5",
+                "cuotas_betsson": { "j1": 1.55, "j2": 2.45 }
+              }
+            },
+            {
+              "tipo_match": "1ra RONDA WTA 500",
+              "torneo": "Internationaux de Strasbourg",
+              "categoria": "WTA 500 · Tierra Batida",
+              "jugador1": "Victoria Mboko",
+              "jugador2": "Por definir",
+              "pais1": "🇨🇦",
+              "pais2": "🏳️",
+              "ranking1": "WTA #38 (1° semilla)",
+              "ranking2": "WTA ~#80",
+              "hora_chile_clt": "~09:00",
+              "hora_local": "~15:00 (FR)",
+              "fecha_partido": "domingo 17 de mayo",
+              "estadio": "Tennis Club de Strasbourg, Francia",
+              "nota": "Mboko es la cabeza de serie #1 del torneo. Canadiense en ascenso en el circuito WTA.",
+              "prediccion_tenis": {
+                "prob_j1": 75, "prob_j2": 25,
+                "favorito": "j1",
+                "sets_esperados": "2 sets",
+                "total_games": "16-20",
+                "aces_esperados": "3-5",
+                "cuotas_betsson": { "j1": 1.25, "j2": 4.00 }
+              }
+            }
+          ],
+          "total_partidos": 5
         }
-      ],
-      "total_partidos": 5
+      }
+    },
+    "formula1": {
+      "nombre": "Fórmula 1",
+      "icono": "🏎️",
+      "ligas": {
+        "formula1": {
+          "nombre": "Fórmula 1 2026",
+          "tipo": "formula1",
+          "status": "SIN CARRERA ESTE FIN DE SEMANA",
+          "nota": "Semana de descanso entre Miami GP (1-3 mayo) y Gran Premio de Canadá (22-24 mayo).",
+          "proxima_carrera": {
+            "nombre": "Gran Premio de Canadá 2026",
+            "circuito": "Circuit Gilles Villeneuve, Montreal",
+            "fecha": "22-24 de mayo de 2026",
+            "clasificacion": "sábado 23 mayo ~14:00 CLT",
+            "carrera": "domingo 24 mayo ~13:00 CLT"
+          },
+          "campeonato_pilotos": [
+            {"pos":1,"piloto":"Kimi Antonelli","equipo":"Mercedes","pts":100,"bandera":"🇮🇹"},
+            {"pos":2,"piloto":"George Russell","equipo":"Mercedes","pts":80,"bandera":"🇬🇧"},
+            {"pos":3,"piloto":"Charles Leclerc","equipo":"Ferrari","pts":65,"bandera":"🇲🇨"},
+            {"pos":4,"piloto":"Lando Norris","equipo":"McLaren","pts":60,"bandera":"🇬🇧"},
+            {"pos":5,"piloto":"Lewis Hamilton","equipo":"Ferrari","pts":55,"bandera":"🇬🇧"},
+            {"pos":6,"piloto":"Max Verstappen","equipo":"Red Bull","pts":45,"bandera":"🇳🇱"},
+            {"pos":7,"piloto":"Oscar Piastri","equipo":"McLaren","pts":40,"bandera":"🇦🇺"},
+            {"pos":8,"piloto":"Carlos Sainz Jr.","equipo":"Williams","pts":32,"bandera":"🇪🇸"}
+          ],
+          "campeonato_constructores": [
+            {"pos":1,"equipo":"Mercedes","pts":180,"color":"#00D2BE"},
+            {"pos":2,"equipo":"Ferrari","pts":120,"color":"#E8002D"},
+            {"pos":3,"equipo":"McLaren","pts":100,"color":"#FF8000"},
+            {"pos":4,"equipo":"Red Bull Racing","pts":75,"color":"#3671C6"},
+            {"pos":5,"equipo":"Williams","pts":45,"color":"#64C4FF"}
+          ],
+          "partidos": []
+        }
+      }
+    },
+    "picks": {
+      "nombre": "Picks",
+      "icono": "📊",
+      "ligas": {
+        "picks": {
+          "nombre": "Picks del Fin de Semana",
+          "tipo": "picks",
+          "periodo": "16-17 mayo 2026",
+          "resumen": { "total": 11, "correctas": 0, "pendientes": 11, "precision_pct": 0 },
+          "picks_list": [
+            {"deporte":"🇨🇱 Chile","partido":"Colo-Colo vs Ñublense","pick":"Colo-Colo","prob_pct":62,"cuota":1.55,"fecha":"dom 17","resultado":"pendiente"},
+            {"deporte":"🇨🇱 Chile","partido":"Limache vs U. Católica","pick":"U. Católica","prob_pct":57,"cuota":1.65,"fecha":"sáb 16","resultado":"pendiente"},
+            {"deporte":"🇪🇸 LaLiga","partido":"Barcelona vs Real Betis","pick":"Barcelona","prob_pct":65,"cuota":1.40,"fecha":"dom 17","resultado":"pendiente"},
+            {"deporte":"🇪🇸 LaLiga","partido":"Sevilla vs Real Madrid","pick":"Real Madrid","prob_pct":60,"cuota":1.45,"fecha":"dom 17","resultado":"pendiente"},
+            {"deporte":"🇪🇸 LaLiga","partido":"Atlético vs Girona","pick":"Atlético","prob_pct":62,"cuota":1.55,"fecha":"dom 17","resultado":"pendiente"},
+            {"deporte":"🇩🇪 Bundesliga","partido":"Bayern vs Köln","pick":"Bayern","prob_pct":82,"cuota":1.15,"fecha":"sáb 16","resultado":"pendiente"},
+            {"deporte":"🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier","partido":"Newcastle vs West Ham","pick":"Newcastle","prob_pct":63,"cuota":1.50,"fecha":"dom 17","resultado":"pendiente"},
+            {"deporte":"🇮🇹 Serie A","partido":"Inter vs Verona","pick":"Inter","prob_pct":80,"cuota":1.20,"fecha":"dom 17","resultado":"pendiente"},
+            {"deporte":"🇮🇹 Serie A","partido":"Pisa vs Napoli","pick":"Napoli","prob_pct":68,"cuota":1.35,"fecha":"dom 17","resultado":"pendiente"},
+            {"deporte":"🎾 Tenis","partido":"Sinner vs Ruud (Final Roma)","pick":"Sinner","prob_pct":68,"cuota":1.40,"fecha":"dom 17","resultado":"pendiente"},
+            {"deporte":"🏀 NBA","partido":"Spurs vs Timberwolves (G7)","pick":"Spurs","prob_pct":54,"cuota":1.85,"fecha":"dom 17","resultado":"pendiente"}
+          ]
+        }
+      }
     }
-  },
-  "resumen": {
-    "total_partidos_confirmados": 39,
-    "ligas_con_partidos": 5,
-    "ligas_sin_partidos": 3,
-    "notas": [
-      "LaLiga: 10 partidos el 17 mayo — Jornada 37 (penúltima)",
-      "Serie A: 10 partidos el 17 mayo — Jornada 37 (penúltima)",
-      "Bundesliga: 9 partidos el 16 mayo — Última jornada histórica (3 equipos empatados en descenso)",
-      "Premier League: 7 partidos el 16-17 mayo — Última jornada",
-      "NBA: 3 partidos condicionales el 17 mayo",
-      "Copa do Brasil: Sin partidos — oitavas en agosto",
-      "Brasileirão: Rodada 11 — horarios por confirmar en cbf.com.br",
-      "Championship: Sin partidos — final Play-off el 23 mayo en Wembley"
-    ]
-  },
-  "fuentes_principales": [
-    "https://www.bundesliga.com/en/bundesliga/matchday",
-    "https://www.espn.com/nba/story/_/id/48419498/nba-playoffs-2026-play-finals-schedule-scores-news-highlights-bracket-dates",
-    "https://www.skysports.com/football/news/11095/13523523/efl-play-offs-2026-schedule-fixtures-and-wembley-finals",
-    "https://www.laliga.com/en-GB/laliga-easports/standing",
-    "https://www.espn.com/soccer/schedule/_/league/eng.1"
-  ]
+  }
 }
