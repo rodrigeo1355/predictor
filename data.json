@@ -1,0 +1,363 @@
+{
+  "fecha_generacion": "2026-05-15",
+  "fin_de_semana": "16-17 de mayo de 2026",
+  "nota_importante": "Los horarios están convertidos a CLT (Zona Horaria de Chile)",
+  "nota_horarios": "CLT en mayo 2026: España/Italia/Alemania -6h, Brasil -2h, Inglaterra -5h, NBA -4h",
+  "ligas": {
+    "laliga_ea_sports": {
+      "nombre": "LaLiga EA Sports (España)",
+      "status": "PARTIDOS ENCONTRADOS",
+      "competicion": "Primera División",
+      "jornada": "Jornada 37 (penúltima jornada)",
+      "fecha": "domingo 17 de mayo de 2026",
+      "formato": "Horario unificado - todos los partidos simultáneos",
+      "partidos": [
+        {
+          "numero": 1,
+          "local": "Athletic Club de Bilbao",
+          "visitante": "RC Celta de Vigo",
+          "hora_españa": "19:00",
+          "hora_chile_clt": "13:00",
+          "estadio": "San Mamés"
+        },
+        {
+          "numero": 2,
+          "local": "Atlético de Madrid",
+          "visitante": "Girona Football Club",
+          "hora_españa": "19:00",
+          "hora_chile_clt": "13:00",
+          "estadio": "Metropolitano"
+        },
+        {
+          "numero": 3,
+          "local": "Elche Club de Fútbol",
+          "visitante": "Getafe Club de Fútbol",
+          "hora_españa": "19:00",
+          "hora_chile_clt": "13:00",
+          "estadio": "Manuel Martínez Valero"
+        },
+        {
+          "numero": 4,
+          "local": "Levante Unión Deportiva",
+          "visitante": "Real Club Deportivo Mallorca",
+          "hora_españa": "19:00",
+          "hora_chile_clt": "13:00",
+          "estadio": "Estadio Ciudad de Valencia"
+        },
+        {
+          "numero": 5,
+          "local": "Rayo Vallecano de Madrid",
+          "visitante": "Villarreal Club de Fútbol",
+          "hora_españa": "19:00",
+          "hora_chile_clt": "13:00",
+          "estadio": "Estadio de Vallecas"
+        },
+        {
+          "numero": 6,
+          "local": "Real Sociedad de Fútbol",
+          "visitante": "Valencia Club de Fútbol",
+          "hora_españa": "19:00",
+          "hora_chile_clt": "13:00",
+          "estadio": "Anoeta"
+        },
+        {
+          "numero": 7,
+          "local": "Real Oviedo",
+          "visitante": "Deportivo Alavés",
+          "hora_españa": "19:00",
+          "hora_chile_clt": "13:00",
+          "estadio": "Carlos Tartiere"
+        },
+        {
+          "numero": 8,
+          "local": "Club Atlético Osasuna",
+          "visitante": "Real Club Deportivo Espanyol",
+          "hora_españa": "19:00",
+          "hora_chile_clt": "13:00",
+          "estadio": "Estadio El Sadar"
+        },
+        {
+          "numero": 9,
+          "local": "Sevilla Fútbol Club",
+          "visitante": "Real Madrid Club de Fútbol",
+          "hora_españa": "19:00",
+          "hora_chile_clt": "13:00",
+          "estadio": "Ramón Sánchez Pizjuán"
+        },
+        {
+          "numero": 10,
+          "local": "Fútbol Club Barcelona",
+          "visitante": "Real Betis Balompié",
+          "hora_españa": "21:15",
+          "hora_chile_clt": "15:15",
+          "estadio": "Camp Nou"
+        }
+      ],
+      "total_partidos": 10
+    },
+    "serie_a": {
+      "nombre": "Serie A (Italia)",
+      "status": "PARTIDOS ENCONTRADOS",
+      "competicion": "Campeonato Italiano",
+      "jornada": "Jornada 37 (penúltima jornada)",
+      "fecha": "domingo 17 de mayo de 2026",
+      "partidos": [
+        {
+          "numero": 1,
+          "local": "Como 1907",
+          "visitante": "Parma Football Club",
+          "hora_italia": "12:30",
+          "hora_chile_clt": "06:30",
+          "estadio": "Stadio Giuseppe Sinigaglia"
+        },
+        {
+          "numero": 2,
+          "local": "Juventus Football Club",
+          "visitante": "Associazione Calcio Fiorentina",
+          "hora_italia": "12:30",
+          "hora_chile_clt": "06:30",
+          "estadio": "Allianz Stadium"
+        },
+        {
+          "numero": 3,
+          "local": "Pisa Sporting Club",
+          "visitante": "Società Sportiva Calcio Napoli",
+          "hora_italia": "12:30",
+          "hora_chile_clt": "06:30",
+          "estadio": "Stadio Arena Garibaldi"
+        },
+        {
+          "numero": 4,
+          "local": "Associazione Sportiva Roma",
+          "visitante": "Società Sportiva Lazio",
+          "hora_italia": "12:30",
+          "hora_chile_clt": "06:30",
+          "estadio": "Stadio Olimpico"
+        },
+        {
+          "numero": 5,
+          "local": "Genoa Cricket and Football Club",
+          "visitante": "Associazione Calcio Milan",
+          "hora_italia": "12:30",
+          "hora_chile_clt": "06:30",
+          "estadio": "Luigi Ferraris"
+        },
+        {
+          "numero": 6,
+          "local": "Football Club Internazionale Milano",
+          "visitante": "Hellas Verona Football Club",
+          "hora_italia": "15:00",
+          "hora_chile_clt": "09:00",
+          "estadio": "Stadio Giuseppe Meazza"
+        },
+        {
+          "numero": 7,
+          "local": "Atalanta Bergamasca Calcio",
+          "visitante": "Bologna Football Club 1909",
+          "hora_italia": "18:00",
+          "hora_chile_clt": "12:00",
+          "estadio": "Gewiss Stadium"
+        },
+        {
+          "numero": 8,
+          "local": "Cagliari Calcio",
+          "visitante": "Torino Football Club",
+          "hora_italia": "20:45",
+          "hora_chile_clt": "14:45",
+          "estadio": "Sardegna Arena"
+        },
+        {
+          "numero": 9,
+          "local": "Unione Sportiva Sassuolo Calcio",
+          "visitante": "Unione Sportiva Lecce",
+          "hora_italia": "20:45",
+          "hora_chile_clt": "14:45",
+          "estadio": "Mapei Stadium"
+        },
+        {
+          "numero": 10,
+          "local": "Udinese Calcio",
+          "visitante": "Unione Sportiva Cremonese",
+          "hora_italia": "20:45",
+          "hora_chile_clt": "14:45",
+          "estadio": "Friuli"
+        }
+      ],
+      "total_partidos": 10
+    },
+    "bundesliga": {
+      "nombre": "Bundesliga (Alemania)",
+      "status": "SIN PARTIDOS",
+      "competicion": "Primera División Alemana",
+      "jornada": "Jornada 34 (última jornada)",
+      "fecha": "16 de mayo de 2026",
+      "nota": "La temporada 2025-26 de Bundesliga finaliza el 16 de mayo de 2026. No hay partidos en el fin de semana 16-17 mayo, sino en el viernes 15 de mayo y sábado 16 de mayo",
+      "partidos": [],
+      "total_partidos": 0
+    },
+    "campeonato_brasileño": {
+      "nombre": "Campeonato Brasileño - Serie A",
+      "status": "INFORMACIÓN LIMITADA",
+      "competicion": "Serie A",
+      "rodada": "16ª rodada (aproximadamente, horarios finales por confirmar)",
+      "fecha": "16-17-18 de mayo de 2026",
+      "nota": "Los horarios específicos de los partidos no están disponibles aún. La información general indica que hay partidos programados para esta fecha pero los horarios exactos se confirman más próximas a las fechas",
+      "partidos": [],
+      "total_partidos": 0,
+      "recomendacion": "Consultar CBF.com.br, ESPN.com.br o Globoesporte.com.br para información detallada de horarios"
+    },
+    "copa_do_brasil": {
+      "nombre": "Copa do Brasil",
+      "status": "SIN INFORMACIÓN",
+      "competicion": "Copa Nacional de Brasil",
+      "fecha": "2026-05-16 a 2026-05-17",
+      "nota": "No se encontró información específica sobre partidos de Copa do Brasil en el fin de semana 16-17 de mayo de 2026",
+      "partidos": [],
+      "total_partidos": 0,
+      "recomendacion": "Consultar CBF.com.br para el calendario detallado de Copa do Brasil 2026"
+    },
+    "premier_league": {
+      "nombre": "Premier League (Inglaterra)",
+      "status": "PARTIDOS ENCONTRADOS",
+      "competicion": "Primera División Inglesa",
+      "jornada": "Jornada 38 (última jornada)",
+      "fecha": "16-17 de mayo de 2026",
+      "partidos": [
+        {
+          "numero": 1,
+          "local": "Aston Villa Football Club",
+          "visitante": "Liverpool Football Club",
+          "hora_inglaterra": "15:00",
+          "hora_chile_clt": "10:00",
+          "fecha": "sábado 16 de mayo",
+          "estadio": "Villa Park"
+        },
+        {
+          "numero": 2,
+          "local": "Manchester United Football Club",
+          "visitante": "Nottingham Forest Football Club",
+          "hora_inglaterra": "13:30",
+          "hora_chile_clt": "08:30",
+          "fecha": "domingo 17 de mayo",
+          "estadio": "Old Trafford"
+        },
+        {
+          "numero": 3,
+          "local": "Wolverhampton Wanderers Football Club",
+          "visitante": "Fulham Football Club",
+          "hora_inglaterra": "16:00",
+          "hora_chile_clt": "11:00",
+          "fecha": "domingo 17 de mayo",
+          "estadio": "Molineux Stadium"
+        },
+        {
+          "numero": 4,
+          "local": "Leeds United Association Football Club",
+          "visitante": "Brighton and Hove Albion Football Club",
+          "hora_inglaterra": "16:00",
+          "hora_chile_clt": "11:00",
+          "fecha": "domingo 17 de mayo",
+          "estadio": "Elland Road"
+        },
+        {
+          "numero": 5,
+          "local": "Brentford Football Club",
+          "visitante": "Crystal Palace Football Club",
+          "hora_inglaterra": "16:00",
+          "hora_chile_clt": "11:00",
+          "fecha": "domingo 17 de mayo",
+          "estadio": "Gtech Community Stadium"
+        },
+        {
+          "numero": 6,
+          "local": "Everton Football Club",
+          "visitante": "Sunderland Association Football Club",
+          "hora_inglaterra": "16:00",
+          "hora_chile_clt": "11:00",
+          "fecha": "domingo 17 de mayo",
+          "estadio": "Goodison Park"
+        },
+        {
+          "numero": 7,
+          "local": "Newcastle United Football Club",
+          "visitante": "West Ham United Football Club",
+          "hora_inglaterra": "18:30",
+          "hora_chile_clt": "13:30",
+          "fecha": "domingo 17 de mayo",
+          "estadio": "St James' Park"
+        }
+      ],
+      "total_partidos": 7,
+      "nota": "Otros partidos mencionados: Arsenal vs Burnley, Chelsea vs Tottenham Hotspur, AFC Bournemouth vs Manchester City (horarios específicos no confirmados en fuentes)"
+    },
+    "championship": {
+      "nombre": "Championship - Segunda División (Inglaterra)",
+      "status": "INFORMACIÓN LIMITADA",
+      "competicion": "English Football League Championship",
+      "jornada": "Jornada 46 (última jornada)",
+      "fecha": "16-17 de mayo de 2026",
+      "nota": "No se encontró información detallada sobre los partidos específicos de Championship para el fin de semana 16-17 de mayo de 2026",
+      "partidos": [],
+      "total_partidos": 0,
+      "recomendacion": "Consultar ESPN, Flashscore, o la página oficial de EFL para información detallada"
+    },
+    "nba_playoffs": {
+      "nombre": "NBA Playoffs (Estados Unidos)",
+      "status": "PARTIDOS ENCONTRADOS (CONDICIONALES)",
+      "competicion": "Playoff NBA",
+      "ronda": "Semifinales de Conferencia (Segunda Ronda)",
+      "fecha": "17 de mayo de 2026",
+      "nota": "Los siguientes partidos son POTENCIALES - solo se jugarán si las series llegan a Game 7",
+      "partidos": [
+        {
+          "numero": 1,
+          "local": "Detroit Pistons",
+          "visitante": "Cleveland Cavaliers",
+          "tipo_partido": "Game 7 (condicional)",
+          "serie": "Cavaliers vs Pistons",
+          "estado_serie": "Series 3-2 Cleveland",
+          "hora_et": "TBD (por anunciar)",
+          "hora_chile_clt": "TBD (aprox. TBD-4h)",
+          "estadio": "Little Caesars Arena"
+        },
+        {
+          "numero": 2,
+          "local": "San Antonio Spurs",
+          "visitante": "Minnesota Timberwolves",
+          "tipo_partido": "Game 7 (condicional)",
+          "serie": "Timberwolves vs Spurs",
+          "estado_serie": "Series 3-2 San Antonio",
+          "hora_et": "TBD (por anunciar)",
+          "hora_chile_clt": "TBD (aprox. TBD-4h)",
+          "estadio": "AT&T Center"
+        }
+      ],
+      "total_partidos": 2,
+      "nota_importante": "Los horarios exactos no han sido anunciados. Los partidos del 15 de mayo (Game 6) están confirmados: Detroit vs Cleveland (19:00 ET) y Minnesota vs San Antonio (21:30 ET)"
+    }
+  },
+  "resumen": {
+    "total_partidos_confirmados": 30,
+    "ligas_con_partidos": 4,
+    "ligas_sin_partidos": 4,
+    "notas": [
+      "LaLiga: 10 partidos confirmados el 17 de mayo",
+      "Serie A: 10 partidos confirmados el 17 de mayo",
+      "Premier League: 7 partidos confirmados (1 el 16 mayo, 6 el 17 mayo)",
+      "NBA Playoffs: 2 partidos condicionales (solo si las series alcanzan Game 7)",
+      "Bundesliga: Sin partidos (última jornada 16 de mayo, viernes y sábado)",
+      "Campeonato Brasileño: Información limitada - rodada programada pero horarios no disponibles",
+      "Copa do Brasil: Sin información específica para estas fechas",
+      "Championship inglesa: Sin información disponible para estas fechas"
+    ]
+  },
+  "fuentes_principales": [
+    "https://www.laliga.com/en-GB/laliga-easports/calendar",
+    "https://www.andaluciainformacion.es/articulo/sevilla-deportes/partidos-jornada-37-laliga-seran-todos-17-mayo-19-00/",
+    "https://www.goal.com/it/liste/date-e-orari-della-37-giornata-di-serie-a/",
+    "https://www.inter.it/en/news/inter-hellas-verona-schedule-matchday-37-serie-a-25-26",
+    "https://www.fichajes.com/brasil/serie-a/calendario/",
+    "https://www.espn.com/soccer/schedule/_/league/eng.1",
+    "https://www.espn.com/nba/story/_/id/48419498/nba-playoffs-2026-play-finals-schedule-scores-news-highlights-bracket-dates"
+  ]
+}
