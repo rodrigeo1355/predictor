@@ -6,121 +6,105 @@
     <title>GeoBet - Análisis Deportivo & Cuotas</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #0a0e17 0%, #1a1a2e 50%, #16213e 100%);
-            color: #e0e0e0;
-            min-height: 100vh;
-        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #0a0e17 0%, #1a1a2e 50%, #16213e 100%); color: #e0e0e0; min-height: 100vh; }
 
-        .header {
-            background: linear-gradient(135deg, #FF6B35 0%, #F77F00 50%, #FCBF49 100%);
-            color: white;
-            text-align: center;
-            padding: 40px 20px;
-            border-bottom: 5px solid #04A777;
-            position: relative;
-            overflow: hidden;
-            box-shadow: 0 8px 32px rgba(255, 107, 53, 0.3);
-        }
-        .header::before {
-            content: '';
-            position: absolute;
-            top: -50%; left: -50%;
-            width: 200%; height: 200%;
-            background: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255,255,255,0.05) 10px, rgba(255,255,255,0.05) 20px);
-        }
+        /* HEADER */
+        .header { background: linear-gradient(135deg, #FF6B35 0%, #F77F00 50%, #FCBF49 100%); color: white; text-align: center; padding: 40px 20px; border-bottom: 5px solid #04A777; position: relative; overflow: hidden; box-shadow: 0 8px 32px rgba(255,107,53,0.3); }
+        .header::before { content: ''; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255,255,255,0.05) 10px, rgba(255,255,255,0.05) 20px); }
         .header h1 { font-size: 3.2rem; letter-spacing: 4px; text-transform: uppercase; position: relative; font-weight: 900; text-shadow: 3px 3px 6px rgba(0,0,0,0.3); }
-        .header h1 .geo { color: #04A777; font-weight: 900; }
-        .header h1 .bet { color: #fff; }
+        .header h1 .geo { color: #04A777; }
         .header .date { font-size: 1.1rem; opacity: 0.95; margin-top: 10px; position: relative; font-weight: 600; }
         .header .subtitle { font-size: 0.9rem; color: rgba(255,255,255,0.9); margin-top: 6px; position: relative; letter-spacing: 2px; text-transform: uppercase; }
 
         .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
-        .disclaimer { text-align: center; font-size: 0.75rem; color: #FF6B35; padding: 12px; border-bottom: 1px solid #1a1a2e; background: rgba(255, 107, 53, 0.05); border-radius: 8px; margin-bottom: 20px; }
+        .disclaimer { text-align: center; font-size: 0.75rem; color: #FF6B35; padding: 12px; background: rgba(255,107,53,0.05); border-radius: 8px; margin-bottom: 20px; }
 
         /* TABS */
-        .tabs { display: flex; justify-content: center; gap: 0; margin: 20px auto 0; max-width: 900px; padding: 0 20px; flex-wrap: wrap; }
-        .tab-btn { flex: 1; max-width: 240px; padding: 16px 20px; background: linear-gradient(135deg, #141824, #1a1f30); color: #888; border: 2px solid #1e2638; border-bottom: 4px solid transparent; cursor: pointer; font-size: 1.05rem; font-weight: 800; text-transform: uppercase; letter-spacing: 2px; text-align: center; transition: all 0.3s; }
+        .tabs { display: flex; justify-content: center; margin: 20px auto 0; max-width: 900px; padding: 0 20px; flex-wrap: wrap; }
+        .tab-btn { flex: 1; min-width: 80px; max-width: 160px; padding: 14px 10px; background: linear-gradient(135deg, #141824, #1a1f30); color: #888; border: 2px solid #1e2638; border-bottom: 4px solid transparent; cursor: pointer; font-size: 0.85rem; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; text-align: center; transition: all 0.3s; }
         .tab-btn:first-child { border-radius: 12px 0 0 0; }
         .tab-btn:last-child { border-radius: 0 12px 0 0; }
-        .tab-btn.active { background: linear-gradient(135deg, #FF6B35, #F77F00); color: #fff; border-bottom-color: #04A777; box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3); }
+        .tab-btn.active { background: linear-gradient(135deg, #FF6B35, #F77F00); color: #fff; border-bottom-color: #04A777; box-shadow: 0 4px 12px rgba(255,107,53,0.3); }
         .tab-btn:hover:not(.active) { color: #ccc; background: linear-gradient(135deg, #1a1f30, #252d3d); border-color: #FF6B35; }
-        .tab-content { display: none; }
-        .tab-content.active { display: block; }
 
         /* LEAGUE HEADER */
-        .league-header { display: flex; align-items: center; gap: 14px; margin: 32px 0 18px 0; padding: 16px 24px; background: linear-gradient(135deg, #1a1a2e, #16213e); border-radius: 14px; border-left: 6px solid #FF6B35; box-shadow: 0 4px 12px rgba(255, 107, 53, 0.15); }
+        .league-header { display: flex; align-items: center; gap: 14px; margin: 32px 0 18px 0; padding: 16px 24px; background: linear-gradient(135deg, #1a1a2e, #16213e); border-radius: 14px; border-left: 6px solid #FF6B35; box-shadow: 0 4px 12px rgba(255,107,53,0.15); }
         .league-flag { font-size: 1.8rem; }
-        .league-name { font-size: 1.3rem; font-weight: 900; text-transform: uppercase; letter-spacing: 2px; color: #fff; }
-        .league-tag { margin-left: auto; font-size: 0.8rem; padding: 6px 14px; border-radius: 20px; background: rgba(255, 107, 53, 0.2); color: #FCBF49; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; }
+        .league-name { font-size: 1.2rem; font-weight: 900; text-transform: uppercase; letter-spacing: 2px; color: #fff; }
+        .league-tag { margin-left: auto; font-size: 0.75rem; padding: 6px 14px; border-radius: 20px; background: rgba(255,107,53,0.2); color: #FCBF49; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; }
+
+        /* TORNEO SUB-HEADER (tenis) */
+        .torneo-header { display: flex; align-items: center; gap: 10px; margin: 24px 0 12px 0; padding: 12px 18px; background: rgba(255,255,255,0.04); border-radius: 10px; border-left: 4px solid #FCBF49; }
+        .torneo-nombre { font-size: 1rem; font-weight: 800; color: #FCBF49; text-transform: uppercase; letter-spacing: 1px; }
+        .torneo-categoria { margin-left: auto; font-size: 0.72rem; color: #888; font-weight: 600; }
 
         /* MATCH CARD */
         .match-card { background: linear-gradient(135deg, #141824, #1a1f30); border-radius: 14px; margin-bottom: 20px; overflow: hidden; border: 1px solid #1e2638; transition: all 0.3s; box-shadow: 0 2px 8px rgba(0,0,0,0.3); }
-        .match-card:hover { border-color: #FF6B35; box-shadow: 0 6px 20px rgba(255, 107, 53, 0.2); transform: translateY(-2px); }
+        .match-card:hover { border-color: #FF6B35; box-shadow: 0 6px 20px rgba(255,107,53,0.2); transform: translateY(-2px); }
 
-        .match-time { display: flex; justify-content: center; align-items: center; gap: 8px; padding: 10px; background: rgba(255, 107, 53, 0.12); font-size: 0.85rem; color: #FF6B35; font-weight: 700; letter-spacing: 1px; }
+        .match-time { display: flex; justify-content: center; align-items: center; gap: 8px; padding: 10px; background: rgba(255,107,53,0.12); font-size: 0.85rem; color: #FF6B35; font-weight: 700; letter-spacing: 1px; }
+        .match-badge { font-size: 0.65rem; padding: 2px 8px; border-radius: 8px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; }
+        .match-badge.conditional { background: rgba(255,107,53,0.2); color: #FF6B35; }
+        .match-badge.confirmed { background: rgba(4,167,119,0.2); color: #04A777; }
+        .match-badge.final { background: rgba(252,191,73,0.2); color: #FCBF49; }
+        .match-badge.ronda { background: rgba(108,122,156,0.2); color: #8892b0; }
 
-        .match-teams { display: flex; align-items: center; padding: 18px 22px; gap: 14px; }
+        .match-teams { display: flex; align-items: center; padding: 16px 20px; gap: 12px; }
         .team { flex: 1; text-align: center; }
-        .team-name { font-size: 1.05rem; font-weight: 800; color: #fff; }
-        .team-meta { font-size: 0.72rem; color: #888; margin-top: 4px; display: flex; justify-content: center; gap: 8px; }
+        .team-name { font-size: 1rem; font-weight: 800; color: #fff; line-height: 1.3; }
+        .team-meta { font-size: 0.72rem; color: #888; margin-top: 5px; display: flex; justify-content: center; gap: 6px; flex-wrap: wrap; }
         .team-pos { background: rgba(255,107,53,0.15); color: #FCBF49; padding: 2px 7px; border-radius: 10px; font-weight: 700; }
         .team-pts { color: #04A777; font-weight: 600; }
-        .vs { font-size: 0.9rem; color: #666; font-weight: bold; flex-shrink: 0; }
+        .vs { font-size: 0.85rem; color: #555; font-weight: bold; flex-shrink: 0; padding: 0 4px; }
 
         /* PREDICTION SECTION */
-        .prediction-section { padding: 14px 20px; border-top: 1px solid #1e2638; }
+        .prediction-section { padding: 14px 18px; border-top: 1px solid #1e2638; }
+        .prob-header { font-size: 0.68rem; color: #888; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 10px; font-weight: 700; }
 
-        /* PROBABILITY BARS */
-        .prob-header { font-size: 0.7rem; color: #888; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 10px; font-weight: 700; }
-        .prob-row { display: flex; gap: 8px; align-items: center; margin-bottom: 14px; }
+        .prob-row { display: flex; gap: 10px; align-items: stretch; margin-bottom: 14px; }
         .prob-item { flex: 1; }
-        .prob-label { font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 4px; font-weight: 600; }
+        .prob-label { font-size: 0.62rem; color: #888; text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 4px; font-weight: 600; }
         .prob-bar-wrap { display: flex; align-items: center; gap: 6px; }
         .prob-bar { flex: 1; height: 8px; background: #1e2638; border-radius: 4px; overflow: hidden; }
-        .prob-fill { height: 100%; border-radius: 4px; transition: width 0.6s ease; }
-        .prob-fill.local { background: linear-gradient(90deg, #04A777, #00c98c); }
-        .prob-fill.draw  { background: linear-gradient(90deg, #6c7a9c, #8892b0); }
-        .prob-fill.visit { background: linear-gradient(90deg, #FF6B35, #F77F00); }
-        .prob-pct { font-size: 0.82rem; font-weight: 800; color: #e0e0e0; min-width: 32px; text-align: right; }
+        .prob-fill { height: 100%; border-radius: 4px; }
+        .prob-fill.local  { background: linear-gradient(90deg, #04A777, #00c98c); }
+        .prob-fill.draw   { background: linear-gradient(90deg, #6c7a9c, #8892b0); }
+        .prob-fill.visit  { background: linear-gradient(90deg, #FF6B35, #F77F00); }
+        .prob-fill.j1     { background: linear-gradient(90deg, #04A777, #00c98c); }
+        .prob-fill.j2     { background: linear-gradient(90deg, #FF6B35, #F77F00); }
+        .prob-pct { font-size: 0.82rem; font-weight: 800; color: #aaa; min-width: 32px; text-align: right; }
         .prob-pct.winner { color: #FCBF49; }
 
         /* STATS ROW */
-        .stats-divider { height: 1px; background: #1e2638; margin: 12px 0; }
+        .divider { height: 1px; background: #1e2638; margin: 12px 0; }
         .stats-row { display: flex; gap: 6px; margin-bottom: 14px; }
         .stat-item { flex: 1; background: rgba(255,255,255,0.04); border-radius: 10px; padding: 9px 6px; text-align: center; border: 1px solid #1e2638; }
-        .stat-icon { font-size: 1.1rem; display: block; }
-        .stat-label { font-size: 0.6rem; color: #888; text-transform: uppercase; letter-spacing: 1px; display: block; margin: 3px 0; }
-        .stat-val { font-size: 0.9rem; font-weight: 800; color: #FCBF49; }
+        .stat-icon { font-size: 1rem; display: block; }
+        .stat-label { font-size: 0.58rem; color: #777; text-transform: uppercase; letter-spacing: 1px; display: block; margin: 3px 0 2px; }
+        .stat-val { font-size: 0.88rem; font-weight: 800; color: #FCBF49; }
 
         /* BETSSON ODDS */
-        .odds-section { background: rgba(4, 167, 119, 0.06); border: 1px solid rgba(4, 167, 119, 0.2); border-radius: 10px; padding: 10px 14px; }
-        .odds-header { font-size: 0.65rem; color: #04A777; text-transform: uppercase; letter-spacing: 1.5px; font-weight: 700; margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
-        .odds-header::before { content: ''; display: inline-block; width: 8px; height: 8px; background: #04A777; border-radius: 50%; }
-        .odds-row { display: flex; gap: 8px; }
-        .odd-item { flex: 1; text-align: center; background: rgba(255,255,255,0.05); border-radius: 8px; padding: 8px 4px; border: 1px solid #1e2638; transition: all 0.2s; cursor: default; }
-        .odd-item:hover { border-color: #04A777; background: rgba(4, 167, 119, 0.1); }
-        .odd-item.highlight { border-color: #FCBF49; background: rgba(252, 191, 73, 0.08); }
-        .odd-type { font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 4px; font-weight: 700; }
-        .odd-val { font-size: 1.05rem; font-weight: 900; color: #04A777; }
+        .odds-section { background: rgba(4,167,119,0.06); border: 1px solid rgba(4,167,119,0.2); border-radius: 10px; padding: 10px 12px; }
+        .odds-header { font-size: 0.62rem; color: #04A777; text-transform: uppercase; letter-spacing: 1.5px; font-weight: 700; margin-bottom: 10px; display: flex; align-items: center; gap: 5px; }
+        .odds-header::before { content: ''; display: inline-block; width: 6px; height: 6px; background: #04A777; border-radius: 50%; }
+        .odds-row { display: flex; gap: 6px; }
+        .odd-item { flex: 1; text-align: center; background: rgba(255,255,255,0.05); border-radius: 8px; padding: 8px 4px; border: 1px solid #1e2638; cursor: default; transition: all 0.2s; }
+        .odd-item:hover { border-color: #04A777; background: rgba(4,167,119,0.1); }
+        .odd-item.highlight { border-color: #FCBF49; background: rgba(252,191,73,0.08); }
+        .odd-type { font-size: 0.6rem; color: #777; display: block; margin-bottom: 4px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
+        .odd-val { font-size: 1rem; font-weight: 900; color: #04A777; }
         .odd-item.highlight .odd-val { color: #FCBF49; }
 
-        /* STADIUM */
-        .stadium { padding: 8px 22px; background: rgba(4, 167, 119, 0.05); border-top: 1px solid #1e2638; font-size: 0.78rem; color: #666; text-align: center; }
+        /* NOTE BOX */
+        .match-note { padding: 7px 18px; background: rgba(108,122,156,0.08); border-top: 1px solid #1e2638; font-size: 0.72rem; color: #777; text-align: center; font-style: italic; }
 
-        /* NBA specific */
-        .nba-card { background: linear-gradient(135deg, #141824, #1a1f30); border-radius: 14px; margin-bottom: 16px; overflow: hidden; border: 1px solid #1e2638; }
-        .nba-badge { font-size: 0.7rem; padding: 3px 10px; border-radius: 10px; font-weight: 700; letter-spacing: 1px; }
-        .nba-badge.conditional { background: rgba(255, 107, 53, 0.2); color: #FF6B35; }
-        .nba-badge.confirmed { background: rgba(4, 167, 119, 0.2); color: #04A777; }
+        .stadium { padding: 8px 20px; background: rgba(4,167,119,0.05); border-top: 1px solid #1e2638; font-size: 0.75rem; color: #666; text-align: center; }
 
-        /* FOOTER */
-        .footer { text-align: center; padding: 24px; color: #666; font-size: 0.8rem; margin-top: 40px; }
-
+        /* NO MATCHES */
         .no-matches { text-align: center; padding: 40px 20px; color: #666; font-size: 0.95rem; }
-        .no-matches .info-box { background: rgba(255,107,53,0.05); border: 1px solid rgba(255,107,53,0.2); border-radius: 12px; padding: 20px; margin-top: 16px; font-size: 0.85rem; color: #aaa; }
-        .loading { text-align: center; padding: 40px 20px; color: #FF6B35; }
+        .no-matches .info-box { background: rgba(255,107,53,0.05); border: 1px solid rgba(255,107,53,0.15); border-radius: 12px; padding: 20px; margin-top: 16px; font-size: 0.85rem; color: #aaa; }
+
+        .footer { text-align: center; padding: 24px; color: #555; font-size: 0.78rem; margin-top: 40px; }
     </style>
 </head>
 <body>
@@ -132,277 +116,354 @@
 
     <div class="container">
         <div class="disclaimer">
-            ⚠️ Las predicciones son estimadas con base en tabla de posiciones. No garantizan resultado. Cuotas Betsson Chile referenciales.
+            ⚠️ Predicciones basadas en tabla de posiciones y rankings. No garantizan resultado. Cuotas Betsson Chile referenciales.
         </div>
-
         <div class="tabs" id="tabsContainer"></div>
         <div id="contentContainer"></div>
-
-        <div class="footer" id="footer">
+        <div class="footer">
             🌍 <strong>GeoBet</strong> © 2026 — Análisis & Cuotas en Vivo<br>
-            📊 Datos: ESPN, Betsson Chile, Bundesliga.com, NBA.com | Actualizado: <span id="updateDate"></span>
+            📊 Datos: ESPN · Betsson Chile · ATP/WTA Tours · NBA.com | Actualizado: <span id="updateDate"></span>
         </div>
     </div>
 
     <script>
-        let matchData = {};
-        let currentTab = null;
+    let matchData = {};
 
-        async function loadData() {
-            try {
-                const response = await fetch('data.json');
-                matchData = await response.json();
-                initializeUI();
-            } catch (error) {
-                console.error('Error cargando datos:', error);
-                document.getElementById('contentContainer').innerHTML = '<div class="loading">Error cargando datos</div>';
-            }
+    async function loadData() {
+        try {
+            const r = await fetch('data.json');
+            matchData = await r.json();
+            initUI();
+        } catch (e) {
+            document.getElementById('contentContainer').innerHTML = '<div style="text-align:center;padding:40px;color:#FF6B35">Error cargando datos</div>';
+        }
+    }
+
+    function initUI() {
+        document.getElementById('headerDate').textContent = matchData.fin_de_semana || '';
+        document.getElementById('updateDate').textContent = matchData.fecha_generacion || '';
+        buildTabs();
+        activateFirst();
+    }
+
+    function buildTabs() {
+        const c = document.getElementById('tabsContainer');
+        c.innerHTML = '';
+        Object.keys(matchData.ligas || {}).forEach(key => {
+            const btn = document.createElement('button');
+            btn.className = 'tab-btn';
+            btn.textContent = tabLabel(key);
+            btn.onclick = e => selectTab(key, e.target);
+            c.appendChild(btn);
+        });
+    }
+
+    function tabLabel(k) {
+        return { laliga_ea_sports:'LaLiga', serie_a:'Serie A', bundesliga:'Bundesliga',
+                 campeonato_brasileño:'Brasil', campeonato_brasileiro:'Brasil',
+                 copa_do_brasil:'Copa BR', premier_league:'Premier',
+                 championship:'Championship', nba_playoffs:'NBA', tenis:'Tenis' }[k] || k.replace(/_/g,' ');
+    }
+
+    function selectTab(key, btn) {
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        renderLeague(key);
+    }
+
+    function activateFirst() {
+        const first = Object.keys(matchData.ligas || {})[0];
+        if (!first) return;
+        document.querySelector('.tab-btn').classList.add('active');
+        renderLeague(first);
+    }
+
+    function renderLeague(key) {
+        const league = matchData.ligas[key];
+        const el = document.getElementById('contentContainer');
+        if (!league) return;
+
+        const flag = { laliga_ea_sports:'🇪🇸', serie_a:'🇮🇹', bundesliga:'🇩🇪',
+                       campeonato_brasileño:'🇧🇷', campeonato_brasileiro:'🇧🇷',
+                       copa_do_brasil:'🇧🇷', premier_league:'🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+                       championship:'🏴󠁧󠁢󠁥󠁮󠁧󠁿', nba_playoffs:'🏀', tenis:'🎾' }[key] || '⚽';
+
+        const jornada = league.jornada || league.ronda || league.competicion || '';
+        let html = `<div class="league-header">
+            <span class="league-flag">${flag}</span>
+            <span class="league-name">${league.nombre || tabLabel(key)}</span>
+            <span class="league-tag">${jornada}</span>
+        </div>`;
+
+        if (!league.partidos || league.partidos.length === 0) {
+            const info = league.dato_destacado || league.nota || 'Sin partidos confirmados para esta fecha.';
+            el.innerHTML = html + `<div class="no-matches"><div style="font-size:2rem;margin-bottom:12px">📭</div>Sin partidos este fin de semana<div class="info-box">ℹ️ ${info}</div></div>`;
+            return;
         }
 
-        function initializeUI() {
-            setHeaderInfo();
-            createTabs();
-            selectFirstTab();
+        if (league.tipo === 'tenis') {
+            html += renderTennisSection(league);
+        } else if (league.tipo === 'baloncesto') {
+            league.partidos.forEach(m => html += renderNBACard(m));
+        } else {
+            league.partidos.forEach(m => html += renderFootballCard(m));
         }
 
-        function setHeaderInfo() {
-            const date = matchData.fin_de_semana || 'Análisis Deportivo';
-            document.getElementById('headerDate').textContent = date;
-            document.getElementById('updateDate').textContent = matchData.fecha_generacion || new Date().toLocaleDateString();
-        }
+        el.innerHTML = html;
+    }
 
-        function createTabs() {
-            const tabsContainer = document.getElementById('tabsContainer');
-            tabsContainer.innerHTML = '';
-            Object.keys(matchData.ligas || {}).forEach((leagueKey) => {
-                const btn = document.createElement('button');
-                btn.className = 'tab-btn';
-                btn.textContent = getTabName(leagueKey);
-                btn.onclick = (e) => switchTab(leagueKey, e.target);
-                tabsContainer.appendChild(btn);
-            });
-        }
+    /* ─── FOOTBALL CARD ─── */
+    function renderFootballCard(m) {
+        const hora = m.hora_chile_clt || 'TBD';
+        const fp = m.fecha_partido ? ` · ${m.fecha_partido}` : '';
+        const p = m.prediccion;
+        if (!p) return simpleCard(m, hora, fp);
 
-        function getTabName(key) {
-            const names = {
-                'laliga_ea_sports': 'LaLiga',
-                'serie_a': 'Serie A',
-                'bundesliga': 'Bundesliga',
-                'campeonato_brasileño': 'Brasil',
-                'campeonato_brasileiro': 'Brasil',
-                'copa_do_brasil': 'Copa BR',
-                'premier_league': 'Premier',
-                'championship': 'Championship',
-                'nba_playoffs': 'NBA'
-            };
-            return names[key] || key.replace(/_/g, ' ');
-        }
+        const maxP = Math.max(p.prob_local, p.prob_empate, p.prob_visitante);
+        const hl = p.favorito === 'local' ? 'local' : p.favorito === 'visitante' ? 'visitante' : 'empate';
 
-        function switchTab(leagueKey, btnEl) {
-            currentTab = leagueKey;
-            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-            btnEl.classList.add('active');
-            renderContent(leagueKey);
-        }
+        return `<div class="match-card">
+            <div class="match-time">⏰ ${hora} CLT${fp}</div>
+            <div class="match-teams">
+                <div class="team">
+                    <div class="team-name">${m.local}</div>
+                    <div class="team-meta"><span class="team-pos">${p.pos_local}°</span><span class="team-pts">${p.pts_local} pts</span></div>
+                </div>
+                <div class="vs">VS</div>
+                <div class="team">
+                    <div class="team-name">${m.visitante}</div>
+                    <div class="team-meta"><span class="team-pos">${p.pos_visitante}°</span><span class="team-pts">${p.pts_visitante} pts</span></div>
+                </div>
+            </div>
+            <div class="prediction-section">
+                <div class="prob-header">📊 Probabilidades de victoria</div>
+                <div class="prob-row">
+                    ${probBar('Local', 'local', p.prob_local, p.prob_local === maxP)}
+                    ${probBar('Empate', 'draw', p.prob_empate, p.prob_empate === maxP && p.favorito === 'empate')}
+                    ${probBar('Visita', 'visit', p.prob_visitante, p.prob_visitante === maxP)}
+                </div>
+                <div class="divider"></div>
+                <div class="stats-row">
+                    ${statBox('⚽','Goles',p.goles_esperados)}
+                    ${statBox('🟨','Tarjetas',p.tarjetas_esperadas)}
+                    ${statBox('📐','Corners',p.corners_esperados)}
+                </div>
+                <div class="divider"></div>
+                ${oddsSection3way(m.local, m.visitante, p.cuotas_betsson, hl)}
+            </div>
+            ${m.estadio ? `<div class="stadium">🏟️ ${m.estadio}</div>` : ''}
+        </div>`;
+    }
 
-        function selectFirstTab() {
-            const firstKey = Object.keys(matchData.ligas || {})[0];
-            if (firstKey) {
-                currentTab = firstKey;
-                document.querySelector('.tab-btn').classList.add('active');
-                renderContent(firstKey);
-            }
-        }
+    function simpleCard(m, hora, fp) {
+        return `<div class="match-card">
+            <div class="match-time">⏰ ${hora} CLT${fp}</div>
+            <div class="match-teams">
+                <div class="team"><div class="team-name">${m.local}</div></div>
+                <div class="vs">VS</div>
+                <div class="team"><div class="team-name">${m.visitante}</div></div>
+            </div>
+            ${m.estadio ? `<div class="stadium">🏟️ ${m.estadio}</div>` : ''}
+        </div>`;
+    }
 
-        function renderContent(leagueKey) {
-            const league = matchData.ligas[leagueKey];
-            const contentContainer = document.getElementById('contentContainer');
+    /* ─── NBA CARD ─── */
+    function renderNBACard(m) {
+        const hora = m.hora_chile_clt || 'TBD';
+        const p = m.prediccion_nba;
+        const badge = m.condicional
+            ? `<span class="match-badge conditional">CONDICIONAL</span>`
+            : `<span class="match-badge confirmed">CONFIRMADO</span>`;
 
-            if (!league || !league.partidos || league.partidos.length === 0) {
-                const infoText = league.dato_destacado || league.nota || 'Sin partidos confirmados para esta fecha.';
-                contentContainer.innerHTML = `
-                    <div class="no-matches">
-                        <div style="font-size:2rem;margin-bottom:12px">📭</div>
-                        <div>Sin partidos confirmados para este fin de semana</div>
-                        <div class="info-box">ℹ️ ${infoText}</div>
-                    </div>`;
-                return;
-            }
+        if (!p) return `<div class="match-card">
+            <div class="match-time">🏀 ${hora} CLT ${badge}</div>
+            <div class="match-teams">
+                <div class="team"><div class="team-name">${m.local}</div><div class="team-meta">${m.serie||''}</div></div>
+                <div class="vs">VS</div>
+                <div class="team"><div class="team-name">${m.visitante}</div><div class="team-meta">${m.estado_serie||''}</div></div>
+            </div>
+            <div class="stadium">🏟️ ${m.estadio} · ${m.tipo_partido}</div>
+        </div>`;
 
-            const flag = getLeagueFlag(leagueKey);
-            const jornada = league.jornada || league.ronda || 'Jornada';
-            let html = `
-                <div class="league-header">
-                    <span class="league-flag">${flag}</span>
-                    <span class="league-name">${league.nombre || getTabName(leagueKey)}</span>
-                    <span class="league-tag">${jornada}</span>
-                </div>`;
+        const maxP = Math.max(p.prob_local, p.prob_visitante);
+        const hl = p.favorito === 'local' ? 'local' : 'visitante';
 
-            if (leagueKey === 'nba_playoffs') {
-                league.partidos.forEach(match => {
-                    html += renderNBACard(match);
-                });
-            } else {
-                league.partidos.forEach(match => {
-                    html += renderMatchCard(match);
-                });
-            }
-
-            contentContainer.innerHTML = html;
-        }
-
-        function renderMatchCard(match) {
-            const hora = match.hora_chile_clt || 'TBD';
-            const fechaPartido = match.fecha_partido ? ` · ${match.fecha_partido}` : '';
-            const p = match.prediccion;
-
-            if (!p) {
-                return `
-                    <div class="match-card">
-                        <div class="match-time">⏰ ${hora} CLT${fechaPartido}</div>
-                        <div class="match-teams">
-                            <div class="team"><div class="team-name">${match.local}</div></div>
-                            <div class="vs">VS</div>
-                            <div class="team"><div class="team-name">${match.visitante}</div></div>
+        return `<div class="match-card">
+            <div class="match-time">🏀 ${hora} CLT ${badge}</div>
+            <div class="match-teams">
+                <div class="team">
+                    <div class="team-name">${m.local}</div>
+                    <div class="team-meta">
+                        <span class="team-pos">#${p.seed_local} seed</span>
+                        <span class="team-pts">${p.record_local}</span>
+                    </div>
+                </div>
+                <div class="vs">VS</div>
+                <div class="team">
+                    <div class="team-name">${m.visitante}</div>
+                    <div class="team-meta">
+                        <span class="team-pos">#${p.seed_visitante} seed</span>
+                        <span class="team-pts">${p.record_visitante}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="prediction-section">
+                <div class="prob-header">📊 Probabilidades de victoria · ${m.serie} · ${m.estado_serie}</div>
+                <div class="prob-row">
+                    ${probBar(m.local.split(' ').slice(-1)[0], 'local', p.prob_local, p.prob_local === maxP)}
+                    ${probBar(m.visitante.split(' ').slice(-1)[0], 'visit', p.prob_visitante, p.prob_visitante === maxP)}
+                </div>
+                <div class="divider"></div>
+                <div class="stats-row">
+                    ${statBox('🏀','Total pts',p.total_pts_esperados)}
+                    ${statBox('📊','Spread',p.spread)}
+                    ${statBox('🎯','Serie',m.estado_serie.split('(')[0].trim())}
+                </div>
+                <div class="divider"></div>
+                <div class="odds-section">
+                    <div class="odds-header">Cuotas Betsson Chile — Moneyline</div>
+                    <div class="odds-row">
+                        <div class="odd-item ${hl==='local'?'highlight':''}">
+                            <span class="odd-type">${m.local}</span>
+                            <span class="odd-val">${p.cuotas_betsson.local.toFixed(2)}</span>
                         </div>
-                        ${match.estadio ? `<div class="stadium">🏟️ ${match.estadio}</div>` : ''}
-                    </div>`;
-            }
-
-            const maxProb = Math.max(p.prob_local, p.prob_empate, p.prob_visitante);
-            const localWinner = p.prob_local === maxProb;
-            const drawWinner = p.prob_empate === maxProb && p.prob_local !== maxProb && p.prob_visitante !== maxProb;
-            const visitWinner = p.prob_visitante === maxProb;
-
-            const oddsHighlight = p.favorito === 'local' ? 'local' : (p.favorito === 'visitante' ? 'visitante' : 'empate');
-
-            return `
-                <div class="match-card">
-                    <div class="match-time">⏰ ${hora} CLT${fechaPartido}</div>
-                    <div class="match-teams">
-                        <div class="team">
-                            <div class="team-name">${match.local}</div>
-                            <div class="team-meta">
-                                <span class="team-pos">${p.pos_local}°</span>
-                                <span class="team-pts">${p.pts_local} pts</span>
-                            </div>
-                        </div>
-                        <div class="vs">VS</div>
-                        <div class="team">
-                            <div class="team-name">${match.visitante}</div>
-                            <div class="team-meta">
-                                <span class="team-pos">${p.pos_visitante}°</span>
-                                <span class="team-pts">${p.pts_visitante} pts</span>
-                            </div>
+                        <div class="odd-item ${hl==='visitante'?'highlight':''}">
+                            <span class="odd-type">${m.visitante}</span>
+                            <span class="odd-val">${p.cuotas_betsson.visitante.toFixed(2)}</span>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="stadium">🏟️ ${m.estadio} · ${m.tipo_partido}</div>
+        </div>`;
+    }
 
-                    <div class="prediction-section">
-                        <div class="prob-header">📊 Probabilidades</div>
-                        <div class="prob-row">
-                            <div class="prob-item">
-                                <span class="prob-label">Local</span>
-                                <div class="prob-bar-wrap">
-                                    <div class="prob-bar"><div class="prob-fill local" style="width:${p.prob_local}%"></div></div>
-                                    <span class="prob-pct ${localWinner ? 'winner' : ''}">${p.prob_local}%</span>
-                                </div>
-                            </div>
-                            <div class="prob-item">
-                                <span class="prob-label">Empate</span>
-                                <div class="prob-bar-wrap">
-                                    <div class="prob-bar"><div class="prob-fill draw" style="width:${p.prob_empate}%"></div></div>
-                                    <span class="prob-pct ${drawWinner ? 'winner' : ''}">${p.prob_empate}%</span>
-                                </div>
-                            </div>
-                            <div class="prob-item">
-                                <span class="prob-label">Visita</span>
-                                <div class="prob-bar-wrap">
-                                    <div class="prob-bar"><div class="prob-fill visit" style="width:${p.prob_visitante}%"></div></div>
-                                    <span class="prob-pct ${visitWinner ? 'winner' : ''}">${p.prob_visitante}%</span>
-                                </div>
-                            </div>
+    /* ─── TENNIS SECTION ─── */
+    function renderTennisSection(league) {
+        const groups = {};
+        league.partidos.forEach(m => {
+            const k = m.torneo || 'Otros';
+            if (!groups[k]) groups[k] = { categoria: m.categoria, partidos: [] };
+            groups[k].partidos.push(m);
+        });
+
+        let html = '';
+        for (const [nombre, g] of Object.entries(groups)) {
+            html += `<div class="torneo-header">
+                <span class="torneo-nombre">🏆 ${nombre}</span>
+                <span class="torneo-categoria">${g.categoria}</span>
+            </div>`;
+            g.partidos.forEach(m => html += renderTennisCard(m));
+        }
+        return html;
+    }
+
+    function renderTennisCard(m) {
+        const hora = m.hora_chile_clt || 'TBD';
+        const fp = m.fecha_partido ? ` · ${m.fecha_partido}` : '';
+        const p = m.prediccion_tenis;
+
+        const isFinal = m.tipo_match && m.tipo_match.includes('FINAL');
+        const badgeClass = isFinal ? 'final' : 'ronda';
+        const badge = `<span class="match-badge ${badgeClass}">${m.tipo_match}</span>`;
+
+        if (!p) return `<div class="match-card">
+            <div class="match-time">🎾 ${hora} CLT${fp} ${badge}</div>
+            <div class="match-teams">
+                <div class="team"><div class="team-name">${m.pais1||''} ${m.jugador1}</div></div>
+                <div class="vs">VS</div>
+                <div class="team"><div class="team-name">${m.pais2||''} ${m.jugador2}</div></div>
+            </div>
+        </div>`;
+
+        const hl = p.favorito === 'j1' ? 'j1' : 'j2';
+
+        return `<div class="match-card">
+            <div class="match-time">🎾 ${hora} CLT${fp} ${badge}</div>
+            <div class="match-teams">
+                <div class="team">
+                    <div class="team-name">${m.pais1||''} ${m.jugador1}</div>
+                    <div class="team-meta"><span class="team-pos">${m.ranking1}</span></div>
+                </div>
+                <div class="vs">VS</div>
+                <div class="team">
+                    <div class="team-name">${m.pais2||''} ${m.jugador2}</div>
+                    <div class="team-meta"><span class="team-pos">${m.ranking2}</span></div>
+                </div>
+            </div>
+            <div class="prediction-section">
+                <div class="prob-header">📊 Probabilidades de victoria</div>
+                <div class="prob-row">
+                    ${probBar(m.jugador1.split(' ').slice(-1)[0], 'j1', p.prob_j1, p.prob_j1 > p.prob_j2)}
+                    ${probBar(m.jugador2.split(' ').slice(-1)[0], 'j2', p.prob_j2, p.prob_j2 > p.prob_j1)}
+                </div>
+                <div class="divider"></div>
+                <div class="stats-row">
+                    ${statBox('🎾','Sets',p.sets_esperados)}
+                    ${statBox('🔢','Games',p.total_games)}
+                    ${statBox('💨','Aces',p.aces_esperados)}
+                </div>
+                <div class="divider"></div>
+                <div class="odds-section">
+                    <div class="odds-header">Cuotas Betsson Chile — Moneyline</div>
+                    <div class="odds-row">
+                        <div class="odd-item ${hl==='j1'?'highlight':''}">
+                            <span class="odd-type">${m.jugador1}</span>
+                            <span class="odd-val">${p.cuotas_betsson.j1.toFixed(2)}</span>
                         </div>
-
-                        <div class="stats-divider"></div>
-                        <div class="stats-row">
-                            <div class="stat-item">
-                                <span class="stat-icon">⚽</span>
-                                <span class="stat-label">Goles</span>
-                                <span class="stat-val">${p.goles_esperados}</span>
-                            </div>
-                            <div class="stat-item">
-                                <span class="stat-icon">🟨</span>
-                                <span class="stat-label">Tarjetas</span>
-                                <span class="stat-val">${p.tarjetas_esperadas}</span>
-                            </div>
-                            <div class="stat-item">
-                                <span class="stat-icon">📐</span>
-                                <span class="stat-label">Corners</span>
-                                <span class="stat-val">${p.corners_esperados}</span>
-                            </div>
-                        </div>
-
-                        <div class="stats-divider"></div>
-                        <div class="odds-section">
-                            <div class="odds-header">Cuotas Betsson Chile</div>
-                            <div class="odds-row">
-                                <div class="odd-item ${oddsHighlight === 'local' ? 'highlight' : ''}">
-                                    <span class="odd-type">1 Local</span>
-                                    <span class="odd-val">${p.cuotas_betsson.local.toFixed(2)}</span>
-                                </div>
-                                <div class="odd-item ${oddsHighlight === 'empate' ? 'highlight' : ''}">
-                                    <span class="odd-type">X Empate</span>
-                                    <span class="odd-val">${p.cuotas_betsson.empate.toFixed(2)}</span>
-                                </div>
-                                <div class="odd-item ${oddsHighlight === 'visitante' ? 'highlight' : ''}">
-                                    <span class="odd-type">2 Visita</span>
-                                    <span class="odd-val">${p.cuotas_betsson.visitante.toFixed(2)}</span>
-                                </div>
-                            </div>
+                        <div class="odd-item ${hl==='j2'?'highlight':''}">
+                            <span class="odd-type">${m.jugador2}</span>
+                            <span class="odd-val">${p.cuotas_betsson.j2.toFixed(2)}</span>
                         </div>
                     </div>
+                </div>
+            </div>
+            ${m.nota ? `<div class="match-note">📌 ${m.nota}</div>` : ''}
+            <div class="stadium">🏟️ ${m.estadio}</div>
+        </div>`;
+    }
 
-                    ${match.estadio ? `<div class="stadium">🏟️ ${match.estadio}</div>` : ''}
-                </div>`;
-        }
+    /* ─── HELPERS ─── */
+    function probBar(label, cls, pct, isWinner) {
+        return `<div class="prob-item">
+            <span class="prob-label">${label}</span>
+            <div class="prob-bar-wrap">
+                <div class="prob-bar"><div class="prob-fill ${cls}" style="width:${pct}%"></div></div>
+                <span class="prob-pct ${isWinner?'winner':''}">${pct}%</span>
+            </div>
+        </div>`;
+    }
 
-        function renderNBACard(match) {
-            const hora = match.hora_chile_clt || 'TBD';
-            const isConditional = match.tipo_partido && match.tipo_partido.includes('CONDICIONAL');
-            return `
-                <div class="match-card nba-card">
-                    <div class="match-time">
-                        🏀 ${hora} CLT
-                        <span class="nba-badge ${isConditional ? 'conditional' : 'confirmed'}">
-                            ${isConditional ? 'CONDICIONAL' : 'CONFIRMADO'}
-                        </span>
-                    </div>
-                    <div class="match-teams">
-                        <div class="team"><div class="team-name">${match.local}</div><div class="team-meta">${match.serie || ''}</div></div>
-                        <div class="vs">VS</div>
-                        <div class="team"><div class="team-name">${match.visitante}</div><div class="team-meta">${match.estado_serie || ''}</div></div>
-                    </div>
-                    <div class="stadium">🏟️ ${match.estadio} · ${match.tipo_partido}</div>
-                </div>`;
-        }
+    function statBox(icon, label, val) {
+        return `<div class="stat-item">
+            <span class="stat-icon">${icon}</span>
+            <span class="stat-label">${label}</span>
+            <span class="stat-val">${val}</span>
+        </div>`;
+    }
 
-        function getLeagueFlag(key) {
-            const flags = {
-                'laliga_ea_sports': '🇪🇸',
-                'serie_a': '🇮🇹',
-                'bundesliga': '🇩🇪',
-                'campeonato_brasileño': '🇧🇷',
-                'campeonato_brasileiro': '🇧🇷',
-                'copa_do_brasil': '🇧🇷',
-                'premier_league': '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
-                'championship': '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
-                'nba_playoffs': '🏀'
-            };
-            return flags[key] || '⚽';
-        }
+    function oddsSection3way(local, visitante, odds, hl) {
+        return `<div class="odds-section">
+            <div class="odds-header">Cuotas Betsson Chile</div>
+            <div class="odds-row">
+                <div class="odd-item ${hl==='local'?'highlight':''}">
+                    <span class="odd-type">1 Local</span>
+                    <span class="odd-val">${odds.local.toFixed(2)}</span>
+                </div>
+                <div class="odd-item ${hl==='empate'?'highlight':''}">
+                    <span class="odd-type">X Empate</span>
+                    <span class="odd-val">${odds.empate.toFixed(2)}</span>
+                </div>
+                <div class="odd-item ${hl==='visitante'?'highlight':''}">
+                    <span class="odd-type">2 Visita</span>
+                    <span class="odd-val">${odds.visitante.toFixed(2)}</span>
+                </div>
+            </div>
+        </div>`;
+    }
 
-        setInterval(loadData, 60000);
-        loadData();
+    setInterval(loadData, 60000);
+    loadData();
     </script>
 </body>
 </html>

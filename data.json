@@ -663,6 +663,7 @@
     },
     "nba_playoffs": {
       "nombre": "NBA Playoffs 2026",
+      "tipo": "baloncesto",
       "status": "PARTIDOS CONFIRMADOS / CONDICIONALES",
       "competicion": "NBA Playoffs 2026",
       "ronda": "Semis de Conferencia (Game 7) y/o Finales de Conferencia (Game 1)",
@@ -673,38 +674,197 @@
           "numero": 1,
           "local": "Detroit Pistons",
           "visitante": "Cleveland Cavaliers",
-          "tipo_partido": "Game 7 — CONDICIONAL (si Pistons ganan Game 6)",
-          "serie": "Semis del Este — Cavaliers vs Pistons",
+          "tipo_partido": "Game 7 CONDICIONAL",
+          "condicional": true,
+          "serie": "Semis del Este",
           "estado_serie": "Cavaliers lideran 3-2",
           "hora_et": "~19:00 ET",
           "hora_chile_clt": "~19:00 CLT",
-          "estadio": "Little Caesars Arena, Detroit"
+          "estadio": "Little Caesars Arena, Detroit",
+          "prediccion_nba": {
+            "seed_local": 6, "record_local": "42-40",
+            "seed_visitante": 2, "record_visitante": "53-29",
+            "prob_local": 42, "prob_visitante": 58,
+            "favorito": "visitante",
+            "total_pts_esperados": "212-220",
+            "spread": "CLE -4.5",
+            "cuotas_betsson": { "local": 2.20, "visitante": 1.65 }
+          }
         },
         {
           "numero": 2,
           "local": "New York Knicks",
           "visitante": "Cleveland Cavaliers",
-          "tipo_partido": "ECF Game 1 — CONDICIONAL (si Cavaliers ganan Game 6)",
-          "serie": "Finales del Este — Knicks vs Cavaliers",
-          "estado_serie": "Knicks eliminaron a 76ers (4-0)",
+          "tipo_partido": "ECF Game 1 CONDICIONAL",
+          "condicional": true,
+          "serie": "Finales del Este",
+          "estado_serie": "Knicks barrieron a 76ers (4-0)",
           "hora_et": "~20:30 ET",
           "hora_chile_clt": "~20:30 CLT",
-          "estadio": "Madison Square Garden, Nueva York"
+          "estadio": "Madison Square Garden, Nueva York",
+          "prediccion_nba": {
+            "seed_local": 3, "record_local": "50-32",
+            "seed_visitante": 2, "record_visitante": "53-29",
+            "prob_local": 52, "prob_visitante": 48,
+            "favorito": "local",
+            "total_pts_esperados": "210-218",
+            "spread": "NYK -1.5",
+            "cuotas_betsson": { "local": 1.90, "visitante": 1.90 }
+          }
         },
         {
           "numero": 3,
           "local": "San Antonio Spurs",
           "visitante": "Minnesota Timberwolves",
-          "tipo_partido": "Game 7 — CONDICIONAL (si Spurs ganan Game 6)",
-          "serie": "Semis del Oeste — Spurs vs Timberwolves",
+          "tipo_partido": "Game 7 CONDICIONAL",
+          "condicional": true,
+          "serie": "Semis del Oeste",
           "estado_serie": "Spurs lideran 3-2",
           "hora_et": "TBD",
           "hora_chile_clt": "TBD",
-          "estadio": "AT&T Center, San Antonio"
+          "estadio": "AT&T Center, San Antonio",
+          "prediccion_nba": {
+            "seed_local": 5, "record_local": "44-38",
+            "seed_visitante": 4, "record_visitante": "47-35",
+            "prob_local": 54, "prob_visitante": 46,
+            "favorito": "local",
+            "total_pts_esperados": "215-225",
+            "spread": "SAS -2.5",
+            "cuotas_betsson": { "local": 1.85, "visitante": 1.95 }
+          }
         }
       ],
       "total_partidos": 3,
-      "nota_importante": "WCF: Oklahoma City Thunder vs ganador Spurs/Wolves. ECF: Knicks vs ganador Cavs/Pistons."
+      "nota_importante": "WCF: Oklahoma City Thunder (#1 Oeste) vs ganador Spurs/Wolves. ECF: Knicks vs ganador Cavs/Pistons."
+    },
+    "tenis": {
+      "nombre": "Tenis",
+      "tipo": "tenis",
+      "status": "PARTIDOS ENCONTRADOS",
+      "competicion": "ATP & WTA — Clay Swing",
+      "fecha": "16-17 de mayo de 2026",
+      "partidos": [
+        {
+          "tipo_match": "FINAL WTA 1000",
+          "torneo": "Internazionali BNL d'Italia",
+          "categoria": "WTA 1000 · Tierra Batida",
+          "jugador1": "Coco Gauff",
+          "jugador2": "Elina Svitolina",
+          "pais1": "🇺🇸",
+          "pais2": "🇺🇦",
+          "ranking1": "WTA #3",
+          "ranking2": "WTA #20",
+          "hora_chile_clt": "09:00",
+          "hora_local": "15:00 (IT)",
+          "fecha_partido": "sábado 16 de mayo",
+          "estadio": "Foro Italico, Roma",
+          "prediccion_tenis": {
+            "prob_j1": 55, "prob_j2": 45,
+            "favorito": "j1",
+            "sets_esperados": "2-3 sets",
+            "total_games": "18-24",
+            "aces_esperados": "3-6",
+            "cuotas_betsson": { "j1": 1.75, "j2": 2.15 }
+          }
+        },
+        {
+          "tipo_match": "FINAL ATP Masters 1000",
+          "torneo": "Internazionali BNL d'Italia",
+          "categoria": "ATP Masters 1000 · Tierra Batida",
+          "jugador1": "Jannik Sinner",
+          "jugador2": "Casper Ruud",
+          "pais1": "🇮🇹",
+          "pais2": "🇳🇴",
+          "ranking1": "ATP #1",
+          "ranking2": "ATP #15",
+          "hora_chile_clt": "11:00",
+          "hora_local": "17:00 (IT)",
+          "fecha_partido": "domingo 17 de mayo",
+          "estadio": "Foro Italico, Roma",
+          "nota": "Final sujeta a resultado de semis del 15 mayo: Sinner vs Medvedev / Ruud vs Darderi",
+          "prediccion_tenis": {
+            "prob_j1": 68, "prob_j2": 32,
+            "favorito": "j1",
+            "sets_esperados": "3 sets",
+            "total_games": "22-26",
+            "aces_esperados": "8-14",
+            "cuotas_betsson": { "j1": 1.40, "j2": 2.80 }
+          }
+        },
+        {
+          "tipo_match": "1ra RONDA WTA 500",
+          "torneo": "Internationaux de Strasbourg",
+          "categoria": "WTA 500 · Tierra Batida",
+          "jugador1": "Madison Keys",
+          "jugador2": "Por definir",
+          "pais1": "🇺🇸",
+          "pais2": "🏳️",
+          "ranking1": "WTA #16",
+          "ranking2": "WTA ~#75",
+          "hora_chile_clt": "~05:00",
+          "hora_local": "~11:00 (FR)",
+          "fecha_partido": "domingo 17 de mayo",
+          "estadio": "Tennis Club de Strasbourg, Francia",
+          "nota": "Torneo WTA 500 de arcilla, previo al Roland Garros. Rivales por definir en sorteo del 15 mayo.",
+          "prediccion_tenis": {
+            "prob_j1": 72, "prob_j2": 28,
+            "favorito": "j1",
+            "sets_esperados": "2 sets",
+            "total_games": "16-20",
+            "aces_esperados": "3-6",
+            "cuotas_betsson": { "j1": 1.30, "j2": 3.50 }
+          }
+        },
+        {
+          "tipo_match": "1ra RONDA WTA 500",
+          "torneo": "Internationaux de Strasbourg",
+          "categoria": "WTA 500 · Tierra Batida",
+          "jugador1": "Emma Raducanu",
+          "jugador2": "Por definir",
+          "pais1": "🇬🇧",
+          "pais2": "🏳️",
+          "ranking1": "WTA #52",
+          "ranking2": "WTA ~#90",
+          "hora_chile_clt": "~07:00",
+          "hora_local": "~13:00 (FR)",
+          "fecha_partido": "domingo 17 de mayo",
+          "estadio": "Tennis Club de Strasbourg, Francia",
+          "nota": "Raducanu regresa tras más de 2 meses de baja por lesión. Primera competencia en clay de la temporada.",
+          "prediccion_tenis": {
+            "prob_j1": 60, "prob_j2": 40,
+            "favorito": "j1",
+            "sets_esperados": "2-3 sets",
+            "total_games": "18-23",
+            "aces_esperados": "2-5",
+            "cuotas_betsson": { "j1": 1.55, "j2": 2.45 }
+          }
+        },
+        {
+          "tipo_match": "1ra RONDA WTA 500",
+          "torneo": "Internationaux de Strasbourg",
+          "categoria": "WTA 500 · Tierra Batida",
+          "jugador1": "Victoria Mboko",
+          "jugador2": "Por definir",
+          "pais1": "🇨🇦",
+          "pais2": "🏳️",
+          "ranking1": "WTA #38 (1° semilla)",
+          "ranking2": "WTA ~#80",
+          "hora_chile_clt": "~09:00",
+          "hora_local": "~15:00 (FR)",
+          "fecha_partido": "domingo 17 de mayo",
+          "estadio": "Tennis Club de Strasbourg, Francia",
+          "nota": "Mboko es la cabeza de serie #1 del torneo. Canadiense en ascenso en el circuito WTA.",
+          "prediccion_tenis": {
+            "prob_j1": 75, "prob_j2": 25,
+            "favorito": "j1",
+            "sets_esperados": "2 sets",
+            "total_games": "16-20",
+            "aces_esperados": "3-5",
+            "cuotas_betsson": { "j1": 1.25, "j2": 4.00 }
+          }
+        }
+      ],
+      "total_partidos": 5
     }
   },
   "resumen": {
