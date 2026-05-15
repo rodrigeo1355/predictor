@@ -2,7 +2,7 @@
   "fecha_generacion": "2026-05-15",
   "fin_de_semana": "16-17 de mayo de 2026",
   "nota_importante": "Los horarios están convertidos a CLT (Zona Horaria de Chile)",
-  "nota_horarios": "CLT en mayo 2026: España/Italia/Alemania -6h, Brasil -2h, Inglaterra -5h, NBA -4h",
+  "nota_horarios": "CLT en mayo 2026: España/Italia/Alemania -6h, Brasil -2h, Inglaterra -5h, NBA ET≈CLT",
   "ligas": {
     "laliga_ea_sports": {
       "nombre": "LaLiga EA Sports (España)",
@@ -187,34 +187,107 @@
     },
     "bundesliga": {
       "nombre": "Bundesliga (Alemania)",
-      "status": "SIN PARTIDOS",
+      "status": "PARTIDOS ENCONTRADOS",
       "competicion": "Primera División Alemana",
-      "jornada": "Jornada 34 (última jornada)",
-      "fecha": "16 de mayo de 2026",
-      "nota": "La temporada 2025-26 de Bundesliga finaliza el 16 de mayo de 2026. No hay partidos en el fin de semana 16-17 mayo, sino en el viernes 15 de mayo y sábado 16 de mayo",
-      "partidos": [],
-      "total_partidos": 0
+      "jornada": "Jornada 34 (última jornada - fin de temporada)",
+      "fecha": "sábado 16 de mayo de 2026",
+      "formato": "Horario unificado - todos los partidos simultáneos a las 15:30 (Alemania)",
+      "nota": "Jornada histórica: por primera vez en la Bundesliga, los tres últimos clasificados entran a la última jornada con los mismos puntos. Descenso y lucha europea al máximo nivel.",
+      "partidos": [
+        {
+          "numero": 1,
+          "local": "Bayern München",
+          "visitante": "1. FC Köln",
+          "hora_alemania": "15:30",
+          "hora_chile_clt": "09:30",
+          "estadio": "Allianz Arena, Múnich"
+        },
+        {
+          "numero": 2,
+          "local": "Bayer 04 Leverkusen",
+          "visitante": "Hamburger SV",
+          "hora_alemania": "15:30",
+          "hora_chile_clt": "09:30",
+          "estadio": "BayArena, Leverkusen"
+        },
+        {
+          "numero": 3,
+          "local": "Eintracht Frankfurt",
+          "visitante": "VfB Stuttgart",
+          "hora_alemania": "15:30",
+          "hora_chile_clt": "09:30",
+          "estadio": "Deutsche Bank Park, Frankfurt"
+        },
+        {
+          "numero": 4,
+          "local": "SC Freiburg",
+          "visitante": "RB Leipzig",
+          "hora_alemania": "15:30",
+          "hora_chile_clt": "09:30",
+          "estadio": "Europa-Park Stadion, Friburgo"
+        },
+        {
+          "numero": 5,
+          "local": "Werder Bremen",
+          "visitante": "Borussia Dortmund",
+          "hora_alemania": "15:30",
+          "hora_chile_clt": "09:30",
+          "estadio": "Weserstadion, Bremen"
+        },
+        {
+          "numero": 6,
+          "local": "Borussia Mönchengladbach",
+          "visitante": "TSG Hoffenheim",
+          "hora_alemania": "15:30",
+          "hora_chile_clt": "09:30",
+          "estadio": "Borussia-Park, Mönchengladbach"
+        },
+        {
+          "numero": 7,
+          "local": "1. FC Union Berlin",
+          "visitante": "FC Augsburg",
+          "hora_alemania": "15:30",
+          "hora_chile_clt": "09:30",
+          "estadio": "An der Alten Försterei, Berlín"
+        },
+        {
+          "numero": 8,
+          "local": "FC St. Pauli",
+          "visitante": "VfL Wolfsburg",
+          "hora_alemania": "15:30",
+          "hora_chile_clt": "09:30",
+          "estadio": "Millerntor-Stadion, Hamburgo"
+        },
+        {
+          "numero": 9,
+          "local": "1. FC Heidenheim",
+          "visitante": "1. FSV Mainz 05",
+          "hora_alemania": "15:30",
+          "hora_chile_clt": "09:30",
+          "estadio": "Voith-Arena, Heidenheim"
+        }
+      ],
+      "total_partidos": 9
     },
     "campeonato_brasileño": {
-      "nombre": "Campeonato Brasileño - Serie A",
+      "nombre": "Campeonato Brasileño - Série A",
       "status": "INFORMACIÓN LIMITADA",
-      "competicion": "Serie A",
-      "rodada": "16ª rodada (aproximadamente, horarios finales por confirmar)",
-      "fecha": "16-17-18 de mayo de 2026",
-      "nota": "Los horarios específicos de los partidos no están disponibles aún. La información general indica que hay partidos programados para esta fecha pero los horarios exactos se confirman más próximas a las fechas",
+      "competicion": "Brasileirão Série A",
+      "rodada": "Rodada 11 (aproximado)",
+      "fecha": "16-17 de mayo de 2026",
+      "nota": "Los horarios específicos no están disponibles aún. Los partidos de la rodada 11 están programados para este fin de semana pero los horarios exactos se confirman próximos a las fechas. Equipos participantes incluyen Flamengo, Palmeiras, Atlético-MG, Botafogo, Corinthians, São Paulo, Grêmio, Vasco, Fluminense, entre otros.",
       "partidos": [],
       "total_partidos": 0,
-      "recomendacion": "Consultar CBF.com.br, ESPN.com.br o Globoesporte.com.br para información detallada de horarios"
+      "recomendacion": "Consultar CBF.com.br, ESPN.com.br o ge.globo.com para horarios y enfrentamientos exactos"
     },
     "copa_do_brasil": {
       "nombre": "Copa do Brasil",
-      "status": "SIN INFORMACIÓN",
-      "competicion": "Copa Nacional de Brasil",
+      "status": "SIN PARTIDOS",
+      "competicion": "Copa Nacional de Brasil 2026",
       "fecha": "2026-05-16 a 2026-05-17",
-      "nota": "No se encontró información específica sobre partidos de Copa do Brasil en el fin de semana 16-17 de mayo de 2026",
+      "nota": "No hay partidos de Copa do Brasil este fin de semana. La Tercera Fase se completó en marzo de 2026. Las Oitavas de Final están programadas para agosto. El sorteo de cruces de Oitavas se realizará el 26 de mayo.",
       "partidos": [],
-      "total_partidos": 0,
-      "recomendacion": "Consultar CBF.com.br para el calendario detallado de Copa do Brasil 2026"
+      "total_partidos": 0
     },
     "premier_league": {
       "nombre": "Premier League (Inglaterra)",
@@ -288,76 +361,85 @@
         }
       ],
       "total_partidos": 7,
-      "nota": "Otros partidos mencionados: Arsenal vs Burnley, Chelsea vs Tottenham Hotspur, AFC Bournemouth vs Manchester City (horarios específicos no confirmados en fuentes)"
+      "nota": "Otros partidos de la jornada 38: Arsenal vs Burnley, Chelsea vs Tottenham Hotspur, AFC Bournemouth vs Manchester City (horarios específicos por confirmar)"
     },
     "championship": {
-      "nombre": "Championship - Segunda División (Inglaterra)",
-      "status": "INFORMACIÓN LIMITADA",
-      "competicion": "English Football League Championship",
-      "jornada": "Jornada 46 (última jornada)",
+      "nombre": "EFL Championship (Segunda División inglesa)",
+      "status": "SIN PARTIDOS",
+      "competicion": "EFL Championship Play-offs 2025-26",
       "fecha": "16-17 de mayo de 2026",
-      "nota": "No se encontró información detallada sobre los partidos específicos de Championship para el fin de semana 16-17 de mayo de 2026",
+      "nota": "Las semifinales de los play-offs de ascenso ya se disputaron (8-13 mayo). Los equipos clasificados a la final son Southampton y Hull City. La final de Wembley es el 23 de mayo de 2026.",
       "partidos": [],
       "total_partidos": 0,
-      "recomendacion": "Consultar ESPN, Flashscore, o la página oficial de EFL para información detallada"
+      "dato_destacado": "Final Wembley (23 mayo): Southampton vs Hull City — el ganador sube a Premier League"
     },
     "nba_playoffs": {
-      "nombre": "NBA Playoffs (Estados Unidos)",
-      "status": "PARTIDOS ENCONTRADOS (CONDICIONALES)",
-      "competicion": "Playoff NBA",
-      "ronda": "Semifinales de Conferencia (Segunda Ronda)",
+      "nombre": "NBA Playoffs 2026",
+      "status": "PARTIDOS CONFIRMADOS / CONDICIONALES",
+      "competicion": "NBA Playoffs 2026",
+      "ronda": "Semis de Conferencia (Game 7) y/o Finales de Conferencia (Game 1)",
       "fecha": "17 de mayo de 2026",
-      "nota": "Los siguientes partidos son POTENCIALES - solo se jugarán si las series llegan a Game 7",
+      "nota": "Según el resultado del Game 6 del 15 de mayo, el domingo 17 puede haber Game 7 o inicio de Finales de Conferencia.",
       "partidos": [
         {
           "numero": 1,
           "local": "Detroit Pistons",
           "visitante": "Cleveland Cavaliers",
-          "tipo_partido": "Game 7 (condicional)",
-          "serie": "Cavaliers vs Pistons",
-          "estado_serie": "Series 3-2 Cleveland",
-          "hora_et": "TBD (por anunciar)",
-          "hora_chile_clt": "TBD (aprox. TBD-4h)",
-          "estadio": "Little Caesars Arena"
+          "tipo_partido": "Game 7 — CONDICIONAL (solo si Pistons ganan Game 6)",
+          "serie": "Semis del Este — Cavaliers vs Pistons",
+          "estado_serie": "Cavaliers lideran 3-2 (Game 6 jugado el 15 mayo)",
+          "hora_et": "~19:00 ET",
+          "hora_chile_clt": "~19:00 CLT",
+          "estadio": "Little Caesars Arena, Detroit"
         },
         {
           "numero": 2,
+          "local": "New York Knicks",
+          "visitante": "Cleveland Cavaliers",
+          "tipo_partido": "ECF Game 1 — CONDICIONAL (solo si Cavaliers ganan Game 6)",
+          "serie": "Finales del Este — Knicks vs Cavaliers",
+          "estado_serie": "Knicks avanzan tras barrer a los 76ers (4-0)",
+          "hora_et": "~20:30 ET",
+          "hora_chile_clt": "~20:30 CLT",
+          "estadio": "Madison Square Garden, Nueva York"
+        },
+        {
+          "numero": 3,
           "local": "San Antonio Spurs",
           "visitante": "Minnesota Timberwolves",
-          "tipo_partido": "Game 7 (condicional)",
-          "serie": "Timberwolves vs Spurs",
-          "estado_serie": "Series 3-2 San Antonio",
-          "hora_et": "TBD (por anunciar)",
-          "hora_chile_clt": "TBD (aprox. TBD-4h)",
-          "estadio": "AT&T Center"
+          "tipo_partido": "Game 7 — CONDICIONAL (solo si Spurs ganan Game 6)",
+          "serie": "Semis del Oeste — Spurs vs Timberwolves",
+          "estado_serie": "Spurs lideran 3-2 (Game 6 jugado el 15 mayo en Minnesota)",
+          "hora_et": "TBD",
+          "hora_chile_clt": "TBD",
+          "estadio": "AT&T Center, San Antonio"
         }
       ],
-      "total_partidos": 2,
-      "nota_importante": "Los horarios exactos no han sido anunciados. Los partidos del 15 de mayo (Game 6) están confirmados: Detroit vs Cleveland (19:00 ET) y Minnesota vs San Antonio (21:30 ET)"
+      "total_partidos": 3,
+      "nota_importante": "WCF: Oklahoma City Thunder (1° Oeste) vs ganador Spurs/Wolves. ECF: New York Knicks vs ganador Cavs/Pistons. Horarios CLT equivalen a ET en mayo 2026."
     }
   },
   "resumen": {
-    "total_partidos_confirmados": 30,
-    "ligas_con_partidos": 4,
-    "ligas_sin_partidos": 4,
+    "total_partidos_confirmados": 39,
+    "ligas_con_partidos": 5,
+    "ligas_sin_partidos": 3,
     "notas": [
-      "LaLiga: 10 partidos confirmados el 17 de mayo",
-      "Serie A: 10 partidos confirmados el 17 de mayo",
-      "Premier League: 7 partidos confirmados (1 el 16 mayo, 6 el 17 mayo)",
-      "NBA Playoffs: 2 partidos condicionales (solo si las series alcanzan Game 7)",
-      "Bundesliga: Sin partidos (última jornada 16 de mayo, viernes y sábado)",
-      "Campeonato Brasileño: Información limitada - rodada programada pero horarios no disponibles",
-      "Copa do Brasil: Sin información específica para estas fechas",
-      "Championship inglesa: Sin información disponible para estas fechas"
+      "LaLiga: 10 partidos confirmados el 17 de mayo (Jornada 37)",
+      "Serie A: 10 partidos confirmados el 17 de mayo (Jornada 37)",
+      "Bundesliga: 9 partidos confirmados el 16 de mayo — última jornada histórica",
+      "Premier League: 7 partidos confirmados (1 el 16 mayo, 6 el 17 mayo) — última jornada",
+      "NBA: 3 partidos condicionales el 17 mayo (Game 7 y/o inicio Conference Finals)",
+      "Copa do Brasil: Sin partidos — oitavas en agosto",
+      "Campeonato Brasileño: Rodada 11 programada — horarios por confirmar en cbf.com.br",
+      "Championship: Sin partidos — final Play-off el 23 mayo en Wembley (Southampton vs Hull City)"
     ]
   },
   "fuentes_principales": [
+    "https://www.bundesliga.com/en/bundesliga/matchday",
+    "https://www.espn.com/nba/story/_/id/48419498/nba-playoffs-2026-play-finals-schedule-scores-news-highlights-bracket-dates",
+    "https://www.skysports.com/football/news/11095/13523523/efl-play-offs-2026-schedule-fixtures-and-wembley-finals-for-championship-league-one-and-league-two",
     "https://www.laliga.com/en-GB/laliga-easports/calendar",
-    "https://www.andaluciainformacion.es/articulo/sevilla-deportes/partidos-jornada-37-laliga-seran-todos-17-mayo-19-00/",
-    "https://www.goal.com/it/liste/date-e-orari-della-37-giornata-di-serie-a/",
-    "https://www.inter.it/en/news/inter-hellas-verona-schedule-matchday-37-serie-a-25-26",
-    "https://www.fichajes.com/brasil/serie-a/calendario/",
     "https://www.espn.com/soccer/schedule/_/league/eng.1",
-    "https://www.espn.com/nba/story/_/id/48419498/nba-playoffs-2026-play-finals-schedule-scores-news-highlights-bracket-dates"
+    "https://www.cbf.com.br/futebol-brasileiro/tabelas/copa-do-brasil/masculino"
   ]
 }
